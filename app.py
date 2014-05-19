@@ -1,5 +1,6 @@
 from flashcards.dictionary import Dictionary
 from flask import Flask, render_template
+from config import HOST, PORT
 
 app = Flask(__name__)
 
@@ -13,4 +14,4 @@ def dictionary(dictname):
     return render_template("echo.html", echo=d.table.keys()[0])
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host=HOST, port=PORT, debug=True)
