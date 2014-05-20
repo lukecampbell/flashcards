@@ -22,8 +22,8 @@
   <section class="container">
     <section class="animation">
       <div id="card">
-        <figure class="front">ようこそ</figure>
-        <figure class="back">Welcome</figure>
+        <figure class="front">{{front}}</figure>
+        <figure class="back">{{back}}</figure>
       </div>
     </section>
 
@@ -36,6 +36,7 @@
     <script type="text/javascript">
       $(document).ready(function() {
         initFlip();
+        initKeyHandlers();
       });
     </script>
 

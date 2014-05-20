@@ -76,11 +76,14 @@ figure {
 }
 
 #card .front {
-  background: red;
+  background: #333333;
+  color: white;
 }
 
 #card .back {
-  background: blue;
+  background: white;
+  color: black;
+  font-size: 40px;
   -webkit-transform: rotateY( 180deg );
      -moz-transform: rotateY( 180deg );
        -o-transform: rotateY( 180deg );

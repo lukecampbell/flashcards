@@ -7,6 +7,20 @@
             "examples": [
                 {"そういう言い方は誤解招きます":"Puttint it that invites a misunderstanding."}
             ]
+        },
+        "まよった": {
+            "english" : "lost",
+            "kanji":"迷った",
+            "examples": [
+                {"道を迷った":"We've lost our way."}
+            ]
+        },
+        "かぎり" : {
+            "english" : "as long as",
+            "kanji":"限り",
+            "examples": [
+                {"生きている限りご親切を忘れません":"I will not forget your kindness, as long as I live."}
+            ]
         }
     }
 }
