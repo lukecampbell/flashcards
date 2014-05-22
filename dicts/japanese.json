@@ -5,21 +5,28 @@
             "english" : "misunderstanding",
             "kanji":"誤解",
             "examples": [
-                {"そういう言い方は誤解招きます":"Puttint it that invites a misunderstanding."}
+                [ "そういう言い方は{誤解}{ごかい}{招}{まね}きます","Don't misunderstand me [what I say]. Don't take what I say the wrong way.｟話｠Don't get me wrong." ]
             ]
         },
         "まよった": {
             "english" : "lost",
             "kanji":"迷った",
             "examples": [
-                {"道を迷った":"We've lost our way."}
+                ["道を迷った","We've lost our way."]
             ]
         },
         "かぎり" : {
             "english" : "as long as",
             "kanji":"限り",
             "examples": [
-                {"生きている限りご親切を忘れません":"I will not forget your kindness, as long as I live."}
+                ["生きている{限り}{かぎり}ご{親切}{しんせつ}を忘れません","I will not forget your kindness, as long as I live."]
+            ]
+        },
+        "けっきょく":{
+            "english":"As a result, after all, in the end",
+            "kanji":"結局",
+            "examples":[
+                ["何度もやってみたが{結局}{けっきょく}だめだった。","I tried many times, but failed after all [but failed in the end, only to fail, ╳but failed at last]"]
             ]
         }
     }
