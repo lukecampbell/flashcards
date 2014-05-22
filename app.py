@@ -1,7 +1,9 @@
 from flashcards.dictionary import Dictionary
-from flask import Flask, render_template
-from config import HOST, PORT
+from flask import Flask, render_template, send_file, make_response
+from config import HOST, PORT, DICTIONARY_PATH
+import codecs
 import random
+import os
 
 app = Flask(__name__)
 
@@ -11,12 +13,18 @@ def root():
 
 @app.route("/dict/random/<dictname>")
 def dictionary(dictname):
-    d = Dictionary(dictname)
-    random_key = random.choice(d.table.keys())
+    return render_template("random.html")
 
-    front = random_key
-    back = d.table[random_key]['english']
-    return render_template("echo.html", front=front, back=back)
+@app.route("/dict/json/<dictname>.json")
+@app.route("/dict/json/<dictname>")
+def json_dictionary(dictname):
+    path = os.path.join(DICTIONARY_PATH, dictname+'.json')
+    print path
+    with codecs.open(path, 'r', encoding='utf-8') as f:
+        buf = f.read()
+    response = make_response(buf)
+    response.headers['Content-Type'] = 'application/json;charset=utf-8'
+    return response
 
 if __name__ == '__main__':
     app.run(host=HOST, port=PORT, debug=True)

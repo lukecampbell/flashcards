@@ -22,8 +22,8 @@
   <section class="container">
     <section class="animation">
       <div id="card">
-        <figure class="front">{{front}}</figure>
-        <figure class="back">{{back}}</figure>
+        <figure class="front"></figure>
+        <figure class="back"></figure>
       </div>
     </section>
 
@@ -37,6 +37,7 @@
       $(document).ready(function() {
         initFlip();
         initKeyHandlers();
+        updateRandomCard();
       });
     </script>
 
