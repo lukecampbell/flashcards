@@ -101,9 +101,9 @@ function showExamples() {
         var key = parseFuri(examples[i][0]);
         var value = examples[i][1];
         $(".footer-content").append('<div class="top-part"></div>')
-        $(".top-part").append(key);
+        $($(".top-part")[i]).append(key);
         $(".footer-content").append('<div class="bot-part"></div>')
-        $(".bot-part").append(value);
+        $($(".bot-part")[i]).append(value);
     }
 }
 

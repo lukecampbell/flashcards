@@ -5,7 +5,9 @@
             "english" : "misunderstanding",
             "kanji":"誤解",
             "examples": [
-                [ "そういう言い方は{誤解}{ごかい}{招}{まね}きます","Don't misunderstand me [what I say]. Don't take what I say the wrong way.｟話｠Don't get me wrong." ]
+                [ "そういう言い方は{誤解}{ごかい}{招}{まね}きます","Don't misunderstand me [what I say]. Don't take what I say the wrong way.｟話｠Don't get me wrong." ],
+                [ "誤解を{招}{まね}く{説明}{せつめい}をする","give 〘him〙 a misleading explanation｟of｠."],
+                [ "私たちの間には何か{誤解}{ごかい}があるようです", "There seems to be some misunderstanding between us."]
             ]
         },
         "まよった": {
