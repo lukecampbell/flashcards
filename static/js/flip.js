@@ -8,6 +8,8 @@ function initKeyHandlers() {
         case 37: // Left
           break;
         case 38: // Up
+          $(".footer-content").empty();
+          $(".side-content").empty();
           break;
         case 39: // Right
           updateRandomCard();
@@ -18,6 +20,11 @@ function initKeyHandlers() {
           break;
         case 13: // Enter
           flipCard();
+          break;
+        case 32: // Space
+          flipCard();
+          showExamples();
+          showSide();
           break;
         default: console.log(e.keyCode);
       }
@@ -87,8 +94,9 @@ function showSide() {
     if (dictionary === null) {
         initDictionary();
     }
-    var kanji = dictionary[currentKey]["kanji"];
-    $(".side-content").text(parseFuri(kanji));
+    $(".side-content").empty();
+    var yomi = dictionary[currentKey]["yomi"];
+    $(".side-content").append(parseFuri(yomi));
 }
 
 function showExamples() {
@@ -109,7 +117,7 @@ function showExamples() {
 
 function parseFuri(inputString) {
     if(inputString.length <= 0) {
-        return;
+        return "";
     }
     /*
      * First occurrence of the \f escape

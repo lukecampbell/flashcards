@@ -25,6 +25,7 @@ body {
   -webkit-backface-visibility: hidden ;
   z-index: 2;
     font-size: 3em;
+    white-space:nowrap;
     text-align: center;
     line-height: 200px;
 }
@@ -59,4 +60,5 @@ body {
 .side-content {
     font-family: "Arial Black";
     font-size: 5em;
+    white-space:nowrap;
 }

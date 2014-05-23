@@ -1,37 +1,63 @@
 {
     "author":"Luke",
     "contents": {
-        "ごかい" : {
+        "誤解" : {
             "english" : "misunderstanding",
-            "kanji":"誤解",
+            "yomi":"ごかい",
             "examples": [
                 [ "そういう言い方は{誤解}{ごかい}{招}{まね}きます","Don't misunderstand me [what I say]. Don't take what I say the wrong way.｟話｠Don't get me wrong." ],
                 [ "誤解を{招}{まね}く{説明}{せつめい}をする","give 〘him〙 a misleading explanation｟of｠."],
                 [ "私たちの間には何か{誤解}{ごかい}があるようです", "There seems to be some misunderstanding between us."]
             ]
         },
-        "まよった": {
+        "迷った": {
             "english" : "lost",
-            "kanji":"迷った",
+            "yomi":"まよった",
             "examples": [
                 ["道を迷った","We've lost our way."]
             ]
         },
-        "かぎり" : {
+        "限り" : {
             "english" : "as long as",
-            "kanji":"限り",
+            "yomi":"かぎり",
             "examples": [
                 ["生きている{限り}{かぎり}ご{親切}{しんせつ}を忘れません","I will not forget your kindness, as long as I live."]
             ]
         },
-        "けっきょく":{
+        "結局":{
             "english":"As a result, after all, in the end",
-            "kanji":"結局",
+            "yomi":"けっきょく",
             "examples":[
                 ["何度もやってみたが{結局}{けっきょく}だめだった。","I tried many times, but failed after all [but failed in the end, only to fail, ╳but failed at last]"]
+            ]
+        },
+        "捨てる" : {
+            "english":"to throw away",
+            "yomi":"すてる",
+            "examples":[
+                ["古いコートを{捨}{す}てる" , "throw away an old coat / get rid of [discard] an old coat."]
+            ]
+        },
+        "郵便局" : {
+            "english" : "Post-office",
+            "yomi":"ゆうびんきょく",
+            "examples":[
+            ]
+        },
+        "試す": {
+            "english" : "to try",
+            "yomi" : "ためす",
+            "examples": [
+                ["力を試す","try [test] one's strength."],
+                ["この新しいローションを試してみます","I'll try this new lotion. I'll give this new lotion a try."]
+            ]
+        },
+        "のっそり": {
+            "english":"sluggish",
+            "yomi":"のっそり",
+            "examples": [
+                ["のっそりと起こす。","To get up sluggishly."]
             ]
         }
     }
 }
-
-        
