@@ -14,7 +14,7 @@ def root():
     return render_template("index.html")
 
 @app.route("/dict/random/<dictname>")
-def dictionary(dictname):
+def random_dictionary(dictname):
     return render_template("random.html")
 
 @app.route("/dict/json/<dictname>.json")
@@ -46,6 +46,9 @@ def list_dictionaries():
     response.headers['Content-Type'] = 'application/json;charset=utf-8'
     return response
 
+@app.route("/dict/catalog/<dictname>")
+def catalog_dictionary(dictname):
+    return render_template("catalog.html")
 
 if __name__ == '__main__':
     app.run(host=HOST, port=PORT, debug=True)

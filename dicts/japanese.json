@@ -94,6 +94,27 @@
             "examples":[
                 ["自然な{文章}{ぶんしょう}にするためなら大きく文章を変えても{構}{かま}いません。","You can change the sentences completely to make them sound more natural."]
             ]
+        },
+        "逆らう":{
+            "english":"go against, resist, disobey, defy, oppose",
+            "yomi":"さからう",
+            "examples":[
+                ["先生の忠告を逆らう","To resist Sensei's advice."],
+                ["法に逆らって｟{無視}{むし}して｠{行動}{こうどう}する","act in defiance of the law."]
+            ]
+        },
+        "包丁":{
+            "english":"kitchen knife",
+            "yomi":"ほうちょう",
+            "examples":[
+            ]
+        },
+        "残酷（な）":{
+            "english":"Cruel",
+            "yomi":"ざんこく",
+            "examples":[
+                ["動物を残酷に{扱}{あつか}うな","Don't treat animals cruelly."]
+            ]
         }
     }
 }

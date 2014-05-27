@@ -1,0 +1,14 @@
+td {
+    vertical-align: top;
+}
+.key {
+    font-size: 24pt;
+    font-weight: bold;
+}
+.answer {
+    font-size: 16pt;
+}
+.yomi {
+    font-size: 16pt;
+}
+
