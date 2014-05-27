@@ -1,4 +1,5 @@
 {
+    "display":"もらえ",
     "author":"Luke",
     "contents": {
         "あっさり" : {
@@ -20,7 +21,7 @@
             "yomi":"",
             "examples":[
                 ["うっとりさせるような声をあげる。","To have an alluring voice."],
-                ["うっとり眺める。","To ecstatically gaze."]
+                ["うっとり{眺}{なが}める。","To ecstatically gaze."]
             ]
         },
         "おっとり" : {
@@ -64,6 +65,14 @@
             "examples":[
                 ["体にかっちり合うスカート","A close-fitting skirt."]
             ]
+        },
+        "望む": {
+            "english" : "To wish",
+            "yomi":"のぞむ",
+            "examples": [ 
+                ["私は世界旅行ができることを望む" ,"I wish I could [╳can] travel around the world."]
+            ]
         }
+
     }
 }

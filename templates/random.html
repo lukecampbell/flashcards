@@ -33,11 +33,14 @@
 {% endblock %}
 {% block scripts %}
     <script src="/static/js/flip.js"></script>
+    <script src="/static/js/nav.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         initFlip();
         initKeyHandlers();
+        initNavbar();
         updateRandomCard();
+        $('#navsel a').text('Random Mode');
       });
     </script>
 {% endblock %}

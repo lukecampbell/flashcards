@@ -38,8 +38,13 @@ function initDictionary() {
     var dictName = getDictName();
     getDictionary(dictName, function(dict) {
         dictionary = dict["contents"];
+        updateTitle(dict["display"]);
         updateRandomCard();
     });
+}
+
+function updateTitle(newTitle) {
+    $("title").text(newTitle);
 }
 
 function updateRandomCard() {

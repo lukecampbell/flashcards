@@ -1,0 +1,240 @@
+{
+    "display": "Familyって家族です",
+    "author":"Luke",
+    "contents" : {
+        "ご家族":{
+            "english":"Family",
+            "yomi":"ごかぞく",
+            "examples":[
+                ["{核}{かく}家族","Nuclear Family"]
+            ]
+        },
+        "父":{
+            "english":"Father",
+            "yomi":"お父さん<br>ちち",
+            "examples":[
+                ["あの人は私にとってお父さんのようなものだ","He is (like) a father to me."]
+            ]
+        },
+        "母":{
+            "english":"Mother",
+            "yomi":"おかあさん<br>はは",
+            "examples":[
+                ["彼女のお母さんは医者だ","Her mother is a doctor."]
+            ]
+        },
+        "兄":{
+            "english":"Older Brother",
+            "yomi":"おにいさん<br>あに",
+            "examples":[
+                ["私の兄[いちばん上の兄]は先週結婚した","My older [oldest] brother got married last week."]
+            ]
+        },
+        "姉":{
+            "english":"Older Sister",
+            "yomi":"おねえさん<br>あね",
+            "examples":[
+            ]
+        },
+        "弟":{
+            "english":"Younger Brother",
+            "yomi":"おとうと",
+            "examples":[
+                ["私は彼を弟のように思っている","I look upon him as my little brother."]
+            ]
+        },
+        "妹":{
+            "english":"Little Sister",
+            "yomi":"いもうと",
+            "examples":[
+            ]
+        },
+        "祖父":{
+            "english":"Grandfather",
+            "yomi":"おじいさん<br>そふ",
+            "examples":[
+            ]
+        },
+        "祖母":{
+            "english":"Grandmother",
+            "yomi":"おばあさん",
+            "examples":[
+            ]
+        },
+        "妻・家内・奥さん":{
+            "english":"Wife",
+            "yomi":"つま<br>かない<br>おくさん",
+            "examples":[
+                ["人妻","Someone's wife (married woman)"]
+            ]
+        },
+        "夫・主人":{
+            "english":"Husband",
+            "yomi":"おっと<br>（ご）しゅじん",
+            "examples":[
+            ]
+        },
+        "兄弟":{
+            "english":"Sibling(s)",
+            "yumi":"きょうだい",
+            "exampels":[
+                ["選びし兄弟","The chosen siblings"]
+            ]
+        },
+        "一人っ子":{
+            "english":"Only child",
+            "yomi":"ひとりっこ",
+            "examples":[
+                ["私ね、一人っ子だから、厩らしい","I'm only child so, I'm jeaolous."]
+            ]
+        },
+        "赤ちゃん":{
+            "english":"Child",
+            "yomi":"あかちゃん",
+            "examples":[
+                ["5月に赤ちゃんができるの","I'm going to have [expecting] a baby in May."]
+            ]
+        },
+        "仕事":{
+            "english":"Job",
+            "yomi":"しごと",
+            "examples":[
+                ["お仕事を頑張ってください","Good luck with your job/Please do your best with your job"]
+            ]
+        },
+        "手紙":{
+            "english":"Letter",
+            "yomi":"てがみ",
+            "examples":[
+                ["彼女から手紙が来ましたか","Have you gotten [received] a letter from her?"]
+            ]
+        },
+        "発音":{
+            "english":"Pronounciation",
+            "yomi":"はつおん",
+            "examples":[
+            ]
+        },
+        "ハンカチ":{
+            "english":"Handkerchief",
+            "yomi":"",
+            "examples":[
+                ["ハンカチで鼻をかむ","blow one's nose into [with, on] a handkerchief."]
+            ]
+        },
+        "昔":{
+            "english":"Long time ago",
+            "yomi":"むかし",
+            "examples":[
+                ["昔, 京都は日本の{首都}{しゅと}でした","Long ago, Kyoto was the capital of Japan."]
+            ]
+        },
+        "バレバレ":{
+            "english":"to be found out",
+            "yomi":"",
+            "examples":[
+                ["バレバレしちゃった","I was found out."]
+            ]
+        },
+        "二人とも":{
+            "english":"you two, two people",
+            "yomi":"ふたりとも",
+            "examples":[
+                ["二人ともここに来て","Both of you, come here."]
+            ]
+        },
+        "食事":{
+            "english":"a meal, (to have a meal)",
+            "yomi":"しょくじ",
+            "examples":[
+                ["彼の食事の世話をする","To make meals for him"]
+            ]
+        },
+        "話す":{
+            "english":"to speak",
+            "yomi":"はなす",
+            "examples":[
+                ["{夫婦}{ふうふ}は{一方}{いっぽう}から一方に話しかけることはあってもおしゃべりに{発展}{はってん}することはなかった","He and his wife [The couple, They] spoke sometimes, but seldom talked."]
+            ]
+        },
+        "待つ":{
+            "english":"to wait",
+            "yomi":"まつ",
+            "examples":[
+                ["ここに待ってください","Please wait here."]
+            ]
+        },
+        "わざと":{
+            "english":"on purpose",
+            "yomi":"",
+            "examples":[
+                ["それは{偶然}{ぐうぜん}ではなかった. 君がわざとそれをしたのだ","It wasn't an accident; you did it on purpose."]
+            ]
+        },
+        "経つ":{
+            "english":"to pass (time)",
+            "yomi":"たつ",
+            "examples":[
+                ["時間の経つのを忘れる","forget [not notice] the passage of time"],
+                ["もう四年経ちました","Four years have passed already."]
+
+            ]
+        },
+        "いらっしゃる":{
+            "english":"(polite), to be, to go, to come",
+            "yomi":"",
+            "examples":[
+            ]
+        },
+        "うらやましい":{
+            "english":"Jealous",
+            "yomi":"",
+            "examples":[
+                ["うらやましそうに彼女を見る","look enviously at her / look at her with envy [envious eyes] / give her an envious look."]
+            ]
+        },
+        "賑やか":{
+            "english":"busy, bustling",
+            "yomi":"にぎやか",
+            "examples":[
+                ["{街}{まち}は{観光客}{かんこうきゃく}でにぎやかだった","The streets were busy [crowded] with tourists."]
+            ]
+        },
+        "元気":{
+            "english":"Healthy, good, well-being",
+            "yomi":"げんき",
+            "examples":[
+                ["お元気ですか","How are you?"]
+            ]
+        },
+        "いつも":{
+            "english":"always, usually",
+            "yomi":"",
+            "examples":[
+                ["いつもより早く起きる","To get up earlier than usual."]
+            ]
+        },
+        "まだ":{
+            "english":"still",
+            "yomi":"",
+            "examples":[
+                ["まだ学生ですよ","I'm still a student."]
+            ]
+        },
+        "ごろ":{
+            "english":"About, around, toward",
+            "yomi":"",
+            "examples":[
+                ["火曜ごろから彼に会っていない","I haven't seen him since tuesday."]
+            ]
+        },
+        "ぐらい":{
+            "english":"about",
+            "yomi":"",
+            "examples":[
+                ["そこには50人ぐらいの人がいた","There were about fifty people there."]
+            ]
+        }
+    }
+}
+

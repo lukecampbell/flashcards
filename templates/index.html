@@ -6,4 +6,12 @@
       </div>
     </div>
 {% endblock %}
+{% block scripts %}
+    <script src="/static/js/nav.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        initNavbar();
+    });
+    </script>
+{% endblock %}
 

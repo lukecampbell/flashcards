@@ -1,4 +1,5 @@
 {
+    "display":"General Japanese",
     "author":"Luke",
     "contents": {
         "誤解" : {
@@ -57,6 +58,41 @@
             "yomi":"のっそり",
             "examples": [
                 ["のっそりと起こす。","To get up sluggishly."]
+            ]
+        },
+        "交差点" : {
+            "english" : "intersection",
+            "yomi":"こうさてん",
+            "examples": [
+                ["{道路}{どうろ}を交差点で渡る","To cross the street at the intersection."]
+            ]
+        },
+        "喫茶店": {
+            "english" : "Coffee shop",
+            "yomi" : "きっさてん",
+            "examples":[
+                ["休みの時間に隣の喫茶店に行くことをどう思う？","How would you like to go to the nearby coffee shop on break?"]
+            ]
+        },
+        "心中": {
+            "english" : "Lover's Suicide",
+            "yomi" : "しんじゅう",
+            "examples": [
+                ["みんな、私たちは心中するって思っているみたい","It seems like everyone though we were going to commit suicide."]
+            ]
+        },
+        "望む": {
+            "english" : "To wish",
+            "yomi":"のぞむ",
+            "examples": [ 
+                ["私は世界旅行ができることを望む" ,"I wish I could [╳can] travel around the world."]
+            ]
+        },
+        "自然":{
+            "english":"Natural",
+            "yomi":"しぜん",
+            "examples":[
+                ["自然な{文章}{ぶんしょう}にするためなら大きく文章を変えても{構}{かま}いません。","You can change the sentences completely to make them sound more natural."]
             ]
         }
     }
