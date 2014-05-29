@@ -115,6 +115,28 @@
             "examples":[
                 ["動物を残酷に{扱}{あつか}うな","Don't treat animals cruelly."]
             ]
+        },
+        "同性" :{
+            "english":"living together",
+            "yomi":"どうせい",
+            "examples": [
+                [" 彼女と同棲する","Living with her"]
+            ]
+        },
+        "見かけ":{
+            "english":"appearance",
+            "yomi":"みかけ",
+            "examples":[
+                ["彼は見かけは{利口}{りこう}そうだが実はそうではない","He looks [appears, is apparently] clever, but in fact he isn't. "]
+            ]
+        },
+        "じろじろ":{
+            "english":"to stare",
+            "yomi":"",
+            "examples":[
+                ["人をじろじろみるの失礼です","It's rude to stare at people."]
+            ]
         }
+
     }
 }

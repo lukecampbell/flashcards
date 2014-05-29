@@ -1,0 +1,284 @@
+{
+    "display":"スポーツ",
+    "author":"Luke",
+    "contents": {
+        "スポーツ":{
+            "english":"sports",
+            "yomi":"",
+            "examples":[
+                ["前田さんはスポーツが好きですか","Does Mr. Maeda like Sports?"]
+            ]
+        },
+        "番組":{
+            "english":"television program",
+            "yomi":"ばんぐみ",
+            "examples":[
+                ["この番組はご覧のスポンサーの提供でおくりします","This television program was brought to you by our sponsor."]
+            ]
+        },
+        "野球":{
+            "english":"baseball",
+            "yomi":"やきゅう",
+            "examples":[
+                ["野球をする","To play baseball"]
+            ]
+        },
+        "テニス":{
+            "english":"tennis",
+            "yomi":"",
+            "examples":[
+                ["テニスの試合","Tennis match"]
+            ]
+        },
+        "テニスコート":{
+            "english":"tennis court",
+            "yomi":"",
+            "examples":[
+                ["テニスコートに入る","To enter a tennis court"]
+            ]
+        },
+        "ゴルフ":{
+            "english":"golf",
+            "yomi":"",
+            "examples":[
+                ["ゴルフの試合","A golf match."]
+            ]
+        },
+        "サッカー":{
+            "english":"soccer",
+            "yomi":"",
+            "examples":[
+                ["サッカーの試合","Soccer Match"]
+            ]
+        },
+        "空手":{
+            "english":"karate",
+            "yomi":"からて",
+            "examples":[
+                ["彼は空手の{有段者}{ゆうだんしゃ}だ","He's a black belt in Karate."]
+            ]
+        },
+        "球場":{
+            "english":"stadium",
+            "yomi":"きゅうじょう",
+            "examples":[
+            ]
+        },
+        "チーム":{
+            "english":"team",
+            "yomi":"",
+            "examples":[
+            ]
+        },
+        "ボール":{
+            "english":"ball",
+            "yomi":"",
+            "examples":[
+                ["ボールを見つけられなきゃ","You must find the ball."]
+            ]
+        },
+        "ラケット":{
+            "english":"racket",
+            "yomi":"",
+            "examples":[
+                ["テニスのラケット","A tennis racket"]
+            ]
+        },
+        "席":{
+            "english":"seat",
+            "yomi":"せき",
+            "examples":[
+                ["{窓側}{まどがわ}の席","A window seat."]
+            ]
+        },
+        "ラジオ":{
+            "english":"radio",
+            "yomi":"",
+            "examples":[
+            ]
+        },
+        "僕":{
+            "english":"I (male)",
+            "yomi":"ぼく",
+            "examples":[
+                ["僕はルークです","I am Luke."]
+            ]
+        },
+        "同窓会":{
+            "english":"alumni meeting",
+            "yomi":"どうそうかい",
+            "examples":[
+            ]
+        },
+        "高校":{
+            "english":"High school",
+            "yomi":"こうこう",
+            "examples":[
+                ["彼は高校では{成績}{せいせき}がよかった","He did well in high school"]
+            ]
+        },
+        "会社":{
+            "english":"company",
+            "yomi":"かいしゃ",
+            "examples":[
+                ["その会社は何を作っているのですか","What does that company produce?"]
+            ]
+        },
+        "練習":{
+            "english":"practice",
+            "yomi":"れんしゅう",
+            "examples":[
+                ["英語の練習問題をす","To practice sample english problems"]
+            ]
+        },
+        "貸す":{
+            "english":"to lend",
+            "yomi":"かす",
+            "examples":[
+                ["彼には5万円の貸しがある","He owes me 50,000 Yen"]
+            ]
+        },
+        "勝つ":{
+            "english":"to win",
+            "yomi":"かつ",
+            "examples":[
+                ["{戦}{たたか}い[{試合}{しあい}; 賭（か）け; {選挙}{せんきょ}]に勝つ","win a battle [a game; a bet; an election]."]
+            ]
+        },
+        "習う":{
+            "english":"to learn",
+            "yomi":"ならう",
+            "examples":[
+                ["私はA先生に英語を習っています","I'm learning English from Mr. A"]
+            ]
+        },
+        "使う":{
+            "english":"to use",
+            "yomi":"つかう",
+            "examples":[
+                ["のこぎりを上手に使う","Use a saw skillfully"],
+                ["人を使うのがうまい","Be good at using people"]
+            ]
+        },
+        "聞く":{
+            "english":"to hear",
+            "yomi":"きく",
+            "examples":[
+                ["その知らせを聞く","To hear that news."]
+            ]
+        },
+        "昨晩":{
+            "english":"last night",
+            "yomi":"さくばん",
+            "examples":[
+                ["昨晩遅く{隣}{となり}の犬がうるさく{吠}{ほ}える声を聞いた","I heard the neighbor's dog barking loud last night."]
+            ]
+        },
+        "咲く":{
+            "english":"to bloom",
+            "yomi":"さく",
+            "examples":[
+                ["桜の木咲く","The Sakura blooms."]
+            ]
+        },
+        "急ぐ":{
+            "english":"to hurry",
+            "yomi":"いそぐ",
+            "examples":[
+                ["道を急ぐ","To hurry on one's way"],
+                ["彼はそのバスに乗ろうと急いでいた","He was hurrying to catch the bus."]
+            ]
+        },
+        "結論":{
+            "english":"decision",
+            "yomi":"けつろん",
+            "examples":[
+                ["急いで結論を出させる","Hurry him into a making a decision."]
+            ]
+        },
+        "飛ぶ":{
+            "english":"to fly, jump",
+            "yomi":"とぶ",
+            "examples":[
+                ["彼は{太平洋}{たいへいよう}を飛行機で飛んだ","He flew over the Pacific."]
+            ]
+        },
+        "遊ぶ":{
+            "english":"to play",
+            "yomi":"あそぶ",
+            "examples":[
+                ["テレビゲームで遊ぶ","To play a video game."],
+                ["よく{学}{まな}び，よく遊べ","Work hard, play hard"]
+            ]
+        },
+        "編む":{
+            "english":"knit",
+            "yomi":"あむ",
+            "examples":[
+                ["彼にセーターを編んであげる","Knit him a sweater."]
+            ]
+        },
+        "死ぬ":{
+            "english":"to die",
+            "yomi":"しぬ",
+            "examples":[
+                ["死にたくない","I don't want to die."]
+            ]
+        },
+        "止める":{
+            "english":"to stop",
+            "yomi":"やめる",
+            "examples":[
+                ["バスの{運行}{うんこう}を(一時)止める","To suspend service (for one hour)"]
+            ]
+        },
+        "忘れる":{
+            "english":"To forget",
+            "yomi":"わすれる",
+            "examples":[
+                ["恥ずかしいながら、最近は携帯を頼りすぎて感じを忘れなくなっています","I'm ashamed to admit it but lately I've been using my phone too much and I've started forgetting Kanji."]
+            ]
+        },
+        "残念":{
+            "english":"too bad",
+            "yomi":"ざんねん",
+            "examples":[
+            ]
+        },
+        "今度":{
+            "english":"this time, next time",
+            "yomi":"こんど",
+            "examples":[
+            ]
+        },
+        "届く":{
+            "english":"to arrive, to reach",
+            "yomi":"とどく",
+            "examples":[
+                ["今朝彼から手紙が届いた｟手紙を受け取った｠","The letter from him came."],
+                ["彼は背が高いので{天井}{てんじょう}に手が届く","He is so tall that he can reach the ceiling."]
+            ]
+        },
+        "活動誌": {
+            "english":"specialty magazine",
+            "yomi":"かつどうし",
+            "examples":[]
+        },
+        "情けない":{
+            "english":"miserable, wretched, pitiful",
+            "yomi":"なさけない",
+            "examples":[
+                ["どうしてそんなに情けない顔をしているの","Why are you looking so miserable?"]
+            ]
+        },
+        "機会":{
+            "english":"opportunity, occasion",
+            "yomi":"きかい",
+            "examples":[
+                ["話す機会は少ないと思いますが日本語が好きなので勉強したいです","I don't think there will many opportunities to speak Japanese but, I like it so I want to (continue) studying."],
+                ["絶好の機会","Perfect Opportunity"],
+                ["{海外旅行}{かいがいりょこう}は{視野}{しや}を広げるよい機会だ","Taveling abroad is a good way to widen your horizons."]
+            ]
+        }
+    }
+}

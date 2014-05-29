@@ -1,6 +1,7 @@
 function initCatalog() {
     $("#navsel a").text("Catalog");
     initDictionary(renderCatalog);
+    initNavbar();
 }
 
 function renderCatalog() {
