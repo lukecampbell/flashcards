@@ -35,7 +35,13 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li id='navsel' class="active"><a href="#">Home</a></li>
+            <li id='navsel' class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Current</a>
+              <ul id="modelist" class="dropdown-menu">
+                <li id="modelist-current" class="active"><a href="#">Current</a></li>
+                <li id="modelist-alt0"><a href="#">Alt</a></li>
+              </ul>
+            </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dictionaries</a>
               <ul id="dictlist" class="dropdown-menu">
@@ -56,17 +62,7 @@
             <button type="submit" class="btn btn-default">Submit</button>
           </form>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Link</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
+            <li><a href="#"><span class="glyphicon glyphicon-arrow-right"></span> </a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->

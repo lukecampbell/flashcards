@@ -6,11 +6,24 @@
 
 /* Adds the click event handler for clicking in the card's context/frame */
 function initFlip() {
-    $("#card").on("click", flipCard);
-    $('#navsel a').text('Random Mode');
+    $("#card").on("click", function() {
+          flipCard();
+          showExamples();
+          showSide();
+    });
     initDictionary(updateRandomCard);
     initKeyHandlers();
     initNavbar();
+    $('.glyphicon-arrow-right').on("click", function() {
+        updateRandomCard();
+    });
+
+    $("#navsel a.dropdown-toggle").text("Flashcard Mode");
+    $("#modelist-current a").text("Flashcard Mode");
+    $("#modelist-alt0 a").text("Catalog Mode");
+    var dictName = getDictName();
+    $("#modelist-alt0 a").attr("href", "/dict/catalog/" + dictName);
+
 }
 
 /* Initializes keyboard handlers for this view
@@ -38,7 +51,7 @@ function initKeyHandlers() {
           showSide();
           break;
         case 13: // Enter
-          flipCard();
+          updateRandomCard();
           break;
         case 32: // Space
           flipCard();

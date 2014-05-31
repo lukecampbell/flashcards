@@ -1,7 +1,11 @@
 function initCatalog() {
-    $("#navsel a").text("Catalog");
     initDictionary(renderCatalog);
     initNavbar();
+    $("#navsel a.dropdown-toggle").text("Catalog Mode");
+    $("#modelist-current a").text("Catalog");
+    $("#modelist-alt0 a").text("Flashcards");
+    var dictName = getDictName();
+    $("#modelist-alt0 a").attr("href", "/dict/random/" + dictName);
 }
 
 function renderCatalog() {
