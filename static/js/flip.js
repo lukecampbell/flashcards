@@ -63,25 +63,30 @@ function initKeyHandlers() {
     });
 }
 
+// global for holding the working set of cards
+// we remove a card from the set each time we pick a new one
+// if the dictSet becomes empty we copy the contents
+// of dictionary into it.
+var dictSet = {};
+
 /* Picks a <different> random entry from the dictionary to display */
 function updateRandomCard() {
     
     if (dictionary === null)  {
         console.log("大変");
-        return initDictionary();
+    }
+    if ($.isEmptyObject(dictSet)) {
+        console.log("Reset");
+        dictSet = $.extend({}, dictionary);
     }
     // Pick a random entry
-    var keys = Object.keys(dictionary);
+    var keys = Object.keys(dictSet);
     var choice = keys[Math.floor(keys.length * Math.random())];
-    if (Object.size(dictionary) != 1) {
-        while (currentKey === choice) {
-            choice = keys[Math.floor(keys.length * Math.random())];
-        }
-    }
-    currentKey = choice;
 
     // Update the content
-    var entry = dictionary[choice];
+    var entry = dictSet[choice];
+    currentKey = choice;
+    delete dictSet[choice];
     $(".front").text(choice);
     $(".back").text(entry["english"]);
     $(".footer-content").empty();

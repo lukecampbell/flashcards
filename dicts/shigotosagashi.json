@@ -1,0 +1,186 @@
+{
+    "display":"仕事探し",
+    "author":"Luke",
+    "contents": {
+        "（お）給料":{
+            "english":"salary",
+            "yomi":"きゅうりょう",
+            "examples":[
+                ["給料の前借りを頼んだ","I asked for an advance on my salary."]
+            ]
+        },
+        "上司":{
+            "english":"one's boss",
+            "yomi":"じょうし",
+            "examples":[
+                ["彼[彼女]は私より若いが私の上司だ","Even though she's younger than me, she's my boss."]
+            ]
+        },
+        "宣伝部":{
+            "english":"public relations department",
+            "yomi":"せんでんぶ",
+            "examples":[
+            ]
+        },
+        "ジャーナリズム":{
+            "english":"Journalism",
+            "yomi":"",
+            "examples":[
+                ["ジャーナリズムの仕事を見つけたいんです","I'm looking for a job in Journalism."]
+            ]
+        },
+        "ジャーナリスト":{
+            "english":"Journalist",
+            "yomi":"",
+            "examples":[
+            ]
+        },
+        "新聞":{
+            "english":"newspaper",
+            "yomi":"しんぶん",
+            "examples":[
+                ["すべての新聞がその{事故}{じこ}を{簡単}{かんたん}に{報道}{ほうどう}した","All newspapers covered the accident briefly."],
+                ["昔は色々な新聞を読んでいた","I used to read all sorts of news papers."]
+            ]
+        },
+        "雑誌社":{
+            "english":"magazine publisher",
+            "yomi":"ざっししゃ",
+            "examples":[
+            ]
+        },
+        "郵便局":{
+            "english":"post office",
+            "yomi":"yomi",
+            "examples":[
+                ["郵便局で働いています","I work for the post office."]
+            ]
+        },
+        "病院":{
+            "english":"hospital",
+            "yomi":"びょういん",
+            "examples":[
+                ["けがをした人たちは病院に{運}{はこ}ばれた","The injured people were rushed to the hospital."]
+            ]
+        },
+        "運ぶ":{
+            "english":"to carry",
+            "yomi":"はこぶ",
+            "examples":[
+                ["けがをした人たちは病院に{運}{はこ}ばれた","The injured people were rushed to the hospital."]
+            ]
+        },
+        "大学院":{
+            "english":"graduate school",
+            "yomi":"だいがくいん",
+            "examples":[
+                ["大学院にいっているんです","I'm in graduate school."]
+            ]
+        },
+        "美術":{
+            "english":"fine arts",
+            "yomi":"びじゅつ",
+            "examples":[
+                ["あの会社は色々な面白い美術の雑誌を出していますね","That company publishes all sorts of interesting magazines on fine arts."]
+            ]
+        },
+        "公園":{
+            "english":"park",
+            "yomi":"こうえん",
+            "examples":[
+            ]
+        },
+        "パーティ":{
+            "english":"Party",
+            "yomi":"",
+            "examples":[
+                ["パーティーを開く","To throw a party"]
+            ]
+        },
+        "虫":{
+            "english":"bug, insect, worm-thing",
+            "yomi":"むし",
+            "examples":[
+                ["このセーターはすっかり虫に食われている","This sweater is all moth-eaten."]
+            ]
+        },
+        "天ぷら":{
+            "english":"tempura",
+            "yomi":"てんぷら",
+            "examples":[
+            ]
+        },
+        "ビール":{
+            "english":"Beer",
+            "yomi":"",
+            "examples":[
+                ["ビールを読みすぎると酔っ払う","If you drink too much beer, you'll get drunk."]
+            ]
+        },
+        "募集":{
+            "english":"recruit",
+            "yomi":"ぼしゅう",
+            "examples":[
+                ["募集中です","We're recruiting."]
+            ]
+        },
+        "結婚":{
+            "english":"marriage",
+            "yomi":"けっこん",
+            "examples":[
+            ]
+        },
+        "勤める":{
+            "english":"to work",
+            "yomi":"つとめる",
+            "examples":[
+                ["その会社で{秘書}{ひしょ}として勤める","I work as a secretary at that company."],
+                ["学校に勤める","I work in a school."]
+            ]
+        },
+        "探す":{
+            "english":"to search",
+            "yomi":"さがす",
+            "examples":[
+                ["{職}{しょく}を探す","Job hunt"],
+                ["これが私がずっと探していた帽子です", "This is the hat I've been searching for this whole time."]
+            ]
+        },
+        "見つける":{
+            "english":"to find",
+            "yomi":"みつける",
+            "examples":[
+                ["{職}{しょく}を見つける","To find a job."]
+            ]
+        },
+        "知る":{
+            "english":"to know",
+            "yomi":"しる",
+            "examples":[
+                ["どうして彼を知るようになったの","How did you get to know him?"],
+                ["私の知るかぎりでは, 彼はレースに勝ったことは一度もありません","As far as I know, he has never won even a single race."]
+            ]
+        },
+        "色々":{
+            "english":"all sorts of",
+            "yomi":"いろいろ",
+            "examples":[
+                ["彼はいろいろな本を読んでいる","He reads all kinds of books."]
+            ]
+        },
+        "主に":{
+            "english":"stuff",
+            "yomi":"yomi",
+            "examples":[
+                ["その{事故}{じこ}は主に君の{不注意}{ふちゅうい}のせいで起こった","The accident happened mainly because of your incompetence."],
+                ["父は主に運動のためにテニスをする", "My father plays tennis mainly for exercise."]
+            ]
+        },
+        "実は":{
+            "english":"in fact, actually",
+            "yomi":"じつは",
+            "examples":[
+            ]
+        }
+    }
+}
