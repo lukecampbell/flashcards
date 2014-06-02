@@ -128,7 +128,7 @@
             "english":"practice",
             "yomi":"れんしゅう",
             "examples":[
-                ["英語の練習問題をす","To practice sample english problems"]
+                ["英語の練習問題をする","To practice sample english problems"]
             ]
         },
         "貸す":{
@@ -236,7 +236,7 @@
             "english":"To forget",
             "yomi":"わすれる",
             "examples":[
-                ["恥ずかしいながら、最近は携帯を頼りすぎて感じを忘れなくなっています","I'm ashamed to admit it but lately I've been using my phone too much and I've started forgetting Kanji."]
+                ["恥ずかしいながら、最近は携帯を頼りすぎて漢字を忘れなくなっています","I'm ashamed to admit it but lately I've been using my phone too much and I've started forgetting Kanji."]
             ]
         },
         "残念":{
