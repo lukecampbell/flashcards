@@ -51,7 +51,7 @@
         },
         "郵便局":{
             "english":"post office",
-            "yomi":"yomi",
+            "yomi":"ゆうびんきょく",
             "examples":[
                 ["郵便局で働いています","I work for the post office."]
             ]
@@ -170,7 +170,7 @@
         },
         "主に":{
             "english":"stuff",
-            "yomi":"yomi",
+            "yomi":"おもに",
             "examples":[
                 ["その{事故}{じこ}は主に君の{不注意}{ふちゅうい}のせいで起こった","The accident happened mainly because of your incompetence."],
                 ["父は主に運動のためにテニスをする", "My father plays tennis mainly for exercise."]
@@ -180,6 +180,162 @@
             "english":"in fact, actually",
             "yomi":"じつは",
             "examples":[
+            ]
+        },
+        "校舎":{
+            "english":"school building",
+            "yomi":"こうしゃ",
+            "examples":[
+                ["ベルが{鳴}{な}ると子供たちは校舎に入っていった","The kids went into the school when the bell rang."]
+            ]
+        },
+        "探検":{
+            "english":"exploration",
+            "yomi":"たんけん",
+            "examples":[
+                ["月の探検(旅行)に行く","Go on an exploration of the moon."]
+            ]
+        },
+        "だいたい":{
+            "english":"mostly, for the most part",
+            "yomi":"",
+            "examples":[
+                ["私たちはだいたい同じ年だ","We're about the same age"],
+                ["宿題はだいたい終わった","The homework is just about done."],
+                ["だいたいにおいて計画はうまくいった","On the whole, the plan went well."]
+            ]
+        },
+        "後輩":{
+            "english":"underclass(mates)",
+            "yomi":"こうはい",
+            "examples":[
+                ["彼は2年後輩です","He is two years behind me in school."]
+            ]
+        },
+        "ところが":{
+            "english":"but",
+            "yomi":"",
+            "examples":[
+                ["彼女を{訪}{たず}ねた．ところが{留守}{るす}だった","I visited her but she wasn't there."]
+            ]
+        },
+        "訪ねる":{
+            "english":"to visit",
+            "yomi":"たずねる",
+            "examples":[
+                ["訪ねてくださったとき{留守}{るす}にしていてごめんなさい","Sorry, I was out when you came to visit me."]
+            ]
+        },
+        "留守":{
+            "english":"absence",
+            "yomi":"るす",
+            "examples":[
+                ["留守である[にする]","To not be home, or to be absent."],
+                ["留守｟居留守｠を使う","To pretend to be absent"]
+            ]
+        },
+        "正直":{
+            "english":"frankness, truthful",
+            "yomi":"しょうじき",
+            "examples":[
+                ["私の{作品}{さくひん}について正直な{意見}{いけん}を言ってほしい","I want your honest opinion of my work."],
+                ["「それは知りません」と彼女は正直に答えた","I don't know about that, she answered honestly."],
+                ["「私ね，他の人が好きになってしまったの. 彼にどう言えばいいのか分からないわ」「(隠さず)正直に言う方がいいと思うわ」","I think I've fallen in love with someone else, and I don't know how I should tell my boyfriend. I guess I should level with him."]
+            ]
+        },
+        "同級生":{
+            "english":"classmate",
+            "yomi":"どうきゅうせい",
+            "examples":[
+                ["「どのように知り合ったの？」「高校で同級生でした」","How did you know each other? We were classmates in high school."]
+            ]
+        },
+        "犠牲者":{
+            "english":"victim",
+            "yomi":"ぎせいしゃ",
+            "examples":[
+                ["その事故では多くの犠牲者が出た","There were a lot of casualties in that accident."]
+            ]
+        },
+        "不必要":{
+            "english":"unnecessary",
+            "yomi":"ふひつよう",
+            "examples":[
+                ["不必要なもの","Unnecessary things"]
+            ]
+        },
+        "初心者":{
+            "english":"beginner",
+            "yomi":"しょしんしゃ",
+            "examples":[
+                ["テニスの初心者","A beginner at tennis"]
+            ]
+        },
+        "尊敬":{
+            "english":"reverence, respect",
+            "yomi":"そんけい",
+            "examples":[
+                ["彼の{勇敢}{ゆうかん}な{行為}{こうい}は尊敬に{値}{あたい}する","His brave deeds are worthy of respect."]
+            ]
+        },
+        "きちんと":{
+            "english":"neatly, tidely, without fail",
+            "yomi":"",
+            "examples":[
+                ["猫はきちんと夕方にえさをもらいに来る","The cat comes in regularly for food."],
+                ["きちんと理解するのは無理だと思った","I used to think that understanding everything perfectly was impossible."]
+            ]
+        },
+        "理解":{
+            "english":"understanding, comprenshion, grasp",
+            "yomi":"りかい",
+            "examples":[
+                ["理解を{越}{こ}えている","Beyond understanding"],
+                ["彼の言っていることが理解できなかった","I couldn't grasp what he was saying."]
+
+            ]
+        },
+        "手早い":{
+            "english":"quickly",
+            "yomi":"てばやい",
+            "examples":[
+                ["だいたいは手早く辞書で調べたけどわからない事はいつもある。","I quickly looked up the most of it but there are always words I don't know."]
+            ]
+        },
+        "ふと":{
+            "english":"suddenly, by accident",
+            "yomi":"",
+            "examples":[
+                ["そこで、ふと素晴らしい考えを思いついた","And then, I had an amazing idea."]
+            ]
+        },
+        "尽きる":{
+            "english":"to run out",
+            "yomi":"つきる",
+            "examples":[
+                ["それは尽きることのない{好機}{こうき}でしょう？","It's a never ending opportunity right?"]
+            ]
+        },
+        "好機":{
+            "english":"good opportunity",
+            "yomi":"こうき",
+            "examples":[
+                ["{一生}{いっしょう}に一度の好機だった","The change of a lifetime"]
+            ]
+        },
+        "減る":{
+            "english":"to dwindle, decrease, shrink",
+            "yomi":"へる",
+            "examples":[
+                ["数[量]が減る","Decrease in number"],
+                ["毎日その数はが減っている。","Everyday, that number is going down."]
+            ]
+        },
+        "常に":{
+            "english":"always",
+            "yomi":"つねに",
+            "examples":[
+                ["常に学習している","I'm always learning."]
             ]
         }
     }
