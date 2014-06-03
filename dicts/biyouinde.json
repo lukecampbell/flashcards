@@ -212,9 +212,10 @@
             ]
         },
         "緊張":{
-            "english":"straing",
+            "english":"nervous, strain, tension",
             "yomi":"きんちょう",
             "examples":[
+                ["{当時}{どうじ}の私は毎日が緊張の{連続}{れんぞく}でした", "I was under constant stress in my daily life."]
             ]
         },
         "特権":{
@@ -255,6 +256,13 @@
             "yomi":"さそう",
             "examples":[
                 ["ちょっと食事にさそった","I sort of asked out (for food.)"]
+            ]
+        },
+        "当時":{
+            "english":"in those days",
+            "yomi":"とうじ",
+            "examples":[
+                ["当時の私は毎日が緊張の連続でした","I was under constant stress in those days."]
             ]
         }
     }
