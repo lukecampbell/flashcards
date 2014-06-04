@@ -110,6 +110,7 @@ function showSide() {
     }
     $(".side-content").empty();
     var yomi = dictionary[currentKey]["yomi"];
+    yomi = yomi.replace(/・/g, "<br>");
     $(".side-content").append(parseFuri(yomi));
 }
 
