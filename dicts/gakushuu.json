@@ -1,0 +1,82 @@
+{
+    "display":"学習",
+    "author":"Luke",
+    "contents": {
+        "兵器":{
+            "english":"weapon",
+            "yomi":"へいき",
+            "examples":[
+            ]
+        },
+        "商売敵":{
+            "english":"business rival",
+            "yomi":"しょうばいがたき",
+            "examples":[
+            ]
+        },
+        "宣戦布告":{
+            "english":"declaration of war",
+            "yomi":"せんせんふこく",
+            "examples":[
+            ]
+        },
+        "後悔":{
+            "english":"regret",
+            "yomi":"こうかい",
+            "examples":[
+                ["あのように言ったことを後悔している","I regret saying that."]
+            ]
+        },
+        "正体":{
+            "english":"one's true character",
+            "yomi":"しょうたい",
+            "examples":[
+                ["彼は正体を現した","He showed his true colors."]
+            ]
+        },
+        "覚悟":{
+            "english":"readiness, preparedness, resolution, determination",
+            "yomi":"かくご",
+            "examples":[
+                ["危険は覚悟｟十分承知｠の上でやってみます","I am well aware of the danger, but I will try."]
+            ]
+        }
+        "不可抗力":{
+            "english":"act of god, accident, inevitable",
+            "yomi":"ふかこりょく",
+            "examples":[
+                ["その事故は不可抗力だった","That accident was beyond our control."]
+            ]
+        },
+        "再開":{
+            "english":"resume",
+            "yomi":"さいかい",
+            "examples":[
+                ["会は午前10時に再開した","The meeting resumed at 10."],
+                ["授業は9月に再開される","The school repoens in September."],
+            ]
+        },
+        "通行人":{
+            "english":"passerby",
+            "yomi":"つうこうにん",
+            "examples":[
+            ]
+        },
+        "期待":{
+            "english":"expectation",
+            "yomi":"きたい",
+            "examples":[
+                ["その映画は期待はずれだった","This movie fell short of my expectation."],
+                ["僕の期待に返して彼は失敗した。", "Contrary to my expectations, he failed."]
+            ]
+        },
+        "解放":{
+            "english":"to release",
+            "yomi":"かいほう",
+            "examples":[
+                ["母を解放ために来たんです","I came to free my mother."]
+            ]
+        }
+    }
+}
+

@@ -108,9 +108,9 @@
         },
         "黒板":{
             "english":"blackboard",
-            "yomi":"かくばん",
+            "yomi":"こくばん",
             "examples":[
-                ["隔晩を{吹}{ふ}く","Clean a blackboard."]
+                ["黒板を{吹}{ふ}く","Clean a blackboard."]
             ]
         },
         "レポート":{
@@ -215,7 +215,7 @@
             "english":"nervous, strain, tension",
             "yomi":"きんちょう",
             "examples":[
-                ["{当時}{どうじ}の私は毎日が緊張の{連続}{れんぞく}でした", "I was under constant stress in my daily life."]
+                ["{当時}{とうじ}の私は毎日が緊張の{連続}{れんぞく}でした", "I was under constant stress in my daily life."]
             ]
         },
         "特権":{
