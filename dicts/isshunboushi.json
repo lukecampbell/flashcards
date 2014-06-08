@@ -1,0 +1,55 @@
+{
+    "display": "一寸法師",
+    "author":"Luke",
+    "contents" : {
+        "親指":{
+            "english":"thumb",
+            "yomi":"おやゆび",
+            "examples":[
+                ["神さま、親指くらいの小さい小さい子どもでもけっこうです。","Oh God, I don't care if he's as small as a thumb."]
+            ]
+        },
+        "つけてやる":{
+            "english":"to give, put on",
+            "yomi":"",
+            "examples":[
+                ["二人はさっそく、一寸法師(いっすんぼうし)という名前をつけてやりました。","The two quickly gave him a name, Issun Boushi."]
+            ]
+        },
+        "支度":{
+            "english":"preparations",
+            "yomi":"したく",
+            "examples":[
+                ["どうぞ、旅の支度をしてください","Please prepare me for my journey."]
+            ]
+        },
+        "針":{
+            "english":"needle",
+            "yomi":"はり",
+            "examples":[
+                ["そこでおじいさんは一本の針で、一寸法師にちょうどピックリの大きさの刀をつけってやりました","And then, the grandfather made a big katana for him from a needle."]
+            ]
+        },
+        "作ってやる":{
+            "english":"to make for",
+            "yomi":"つくってやる",
+            "examples":[
+                ["そこでおじいさんは一本の針で、一寸法師にちょうどピックリの大きさの刀をつけってやりました","And then, the grandfather made a big katana for him from a needle."]
+            ]
+        },
+        "浮かべる":{
+            "english":"to float (something) or to set (something) sail",
+            "yomi":"うかべる",
+            "examples":[
+                ["おばあさんはおわんを川に浮かベて、一寸法師の乗る舟をつくってやりました。","Obaasan placed a bowl on the water, issunboushi boarded and made it into a boat."]
+            ]
+        },
+        "漕ぐ":{
+            "english":"to row (paddle)",
+            "yomi":"こぐ",
+            "examples":[
+                ["ほら、このおはしで舟をこいでおいで","Look at me, I'm rowing the boat with the hashi."]
+            ]
+        }
+    }
+}
