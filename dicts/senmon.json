@@ -1,0 +1,75 @@
+{
+    "display": "専門",
+    "author":"Luke",
+    "contents" : {
+        "専門":{
+            "english":"fields of study",
+            "yomi":"せんもん",
+            "examples":[
+                ["あなたの専門は何ですか","What's your major?"]
+            ]
+        },
+        "医学":{
+            "english":"medical field",
+            "yomi":"いがく",
+            "examples":[
+                ["彼は医学生だ","He's a med-student."]
+            ]
+        },
+        "科学":{
+            "english":"science",
+            "yomi":"かがく",
+            "examples":[
+                ["科学的に","scientifically"]
+            ]
+        },
+        "化学":{
+            "english":"Chemistry",
+            "yomi":"かがく",
+            "examples":[
+                ["科学者","A chemist"]
+            ]
+        },
+        "数学":{
+            "english":"Mathematics",
+            "yomi":"すうがく",
+            "examples":[
+                ["数学の問題","Math problem"]
+            ]
+        },
+        "物理学":{
+            "english":"Physics",
+            "yomi":"ぶつりがく",
+            "examples":[
+                ["そのような計画を{実行}{じっこう}に{移}{うつ}すのは物理的に{不可能}{ふかのう}である","It is physically impossible to execute that plan."]
+            ]
+        },
+        "音楽":{
+            "english":"Music",
+            "yomi":"おんがく",
+            "examples":[
+                ["彼女は音楽の先生です","She is a music teacher."]
+            ]
+        },
+        "建築学":{
+            "english":"Architecture",
+            "yomi":"けんちく",
+            "examples":[
+                ["和風建築","Japanese Architecture"]
+            ]
+        },
+        "工学":{
+            "english":"Engineering",
+            "yomi":"こうがく",
+            "examples":[
+                ["工学士","Bachelor's of Engineering"]
+            ]
+        },
+        "電気工学":{
+            "english":"Electrical Engineering",
+            "yomi":"でんきこうがく",
+            "examples":[
+            ]
+        }
+    }
+}

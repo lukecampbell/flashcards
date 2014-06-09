@@ -50,6 +50,34 @@
             "examples":[
                 ["ほら、このおはしで舟をこいでおいで","Look at me, I'm rowing the boat with the hashi."]
             ]
+        },
+        "首を傾げる":{
+            "english":"to cock one's head to the side",
+            "yomi":"くびをかしげる",
+            "examples":[
+                ["出て来た手伝いの人は、首をかしげました。","The helper that came out, had his head cocked to the side."]
+            ]
+        },
+        "お守り役":{
+            "english":"Guard Duty",
+            "yomi":"おまもりやく",
+            "examples":[
+                ["そして一寸法師は、その家のお姫さまのお守り役になったのです。","And, Issunboushi got a job as a guard for the princess."]
+            ]
+        },
+        "お供":{
+            "english":"assistant",
+            "yomi":"おとも",
+            "examples":[
+                ["ある日の事、一寸法師はお姫さまのお供をして、お寺にお参りに行きました。","One day, while being an assistant for the princess, Issunboushi took the princess to see the shrines."]
+            ]
+        },
+        "帰り道":{
+            "english":"return path",
+            "yomi":"かえりみち",
+            "examples":[
+                ["すろとその帰り道、突然、二匹の鬼が現れました。","And then, on the return path, two demons appeared."]
+            ]
         }
     }
 }
