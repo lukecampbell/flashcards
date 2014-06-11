@@ -136,6 +136,20 @@
             "examples":[
                 ["人をじろじろみるの失礼です","It's rude to stare at people."]
             ]
+        },
+        "直前":{
+            "english":"just before, right before",
+            "yomi":"ちょくぜん",
+            "examples":[
+                ["もし同士になったら、帰る直前に会議をしないでください","If you become a boss, please don't hold meetings right before we leave."]
+            ]
+        },
+        "やる気":{
+            "english":"Motivation",
+            "yomi":"やるき",
+            "examples":[
+                ["やる気を削がれます","To suck motivation"]
+            ]
         }
 
     }

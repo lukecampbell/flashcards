@@ -1,0 +1,109 @@
+{
+    "display": "進撃の巨人1",
+    "author":"Luke",
+    "contents" : {
+        "人類":{
+            "english":"Humanity",
+            "yomi":"じんるい",
+            "examples":[
+                ["その日、人類は思い出した","Humanity remembered that day."]
+            ]
+        },
+        "支配":{
+            "english":"control, dominate",
+            "yomi":"しはい",
+            "examples":[
+                ["ヤツらに支配されていた{恐怖}{きょうふ}を・・・","Their dominating fear..."]
+            ]
+        },
+        "恐怖":{
+            "english":"fear",
+            "yomi":"きょうふ",
+            "examples":[
+                ["ヤツらに支配されていた恐怖を・・・","Their dominating fear..."]
+            ]
+        },
+        "鳥籠":{
+            "english":"Bird cage",
+            "yomi":"とりかご",
+            "examples":[
+                ["鳥籠の中に{囚}{とら}われていた{屈辱}{くつじょく}を・・・","The humility of being imprisoned in a cage..."]
+            ]
+        },
+        "とらわれる":{
+            "english":"be caught, be imprisoned",
+            "yomi":"",
+            "examples":[
+                ["{鳥籠}{とりかご}の中に囚われていた{屈辱}{くつじょく}を・・・","The humiliation of being imprisoned in a cage..."]
+            ]
+        },
+        "屈辱":{
+            "english":"humiliation, disgrace",
+            "yomi":"くつじょく",
+            "examples":[
+                ["{鳥籠}{とりかご}の中に{囚}{とら}われていた屈辱を・・・","The humiliation of being imprisoned in a cage..."]
+            ]
+        },
+        "総員":{
+            "english":"all hands",
+            "yomi":"そういん",
+            "examples":[
+            ]
+        },
+        "戦闘":{
+            "english":"Battle, Combat",
+            "yomi":"せんとう",
+            "examples":[
+                ["戦闘用意","Battle Preparations"]
+            ]
+        },
+        "用意":{
+            "english":"preparations",
+            "yomi":"ようい",
+            "examples":[
+                ["戦闘用意","Battle Preparations"]
+            ]
+        },
+        "目標":{
+            "english":"target",
+            "yomi":"もくひょう",
+            "examples":[
+            ]
+        },
+        "仕留める":{
+            "english":"to kill, to shoot, to bring down",
+            "yomi":"しとめる",
+            "examples":[
+                ["必ず仕留めるぞ","Definitely kill it!"]
+            ]
+        },
+        "距離":{
+            "english":"Distance",
+            "yomi":"きょり",
+            "examples":[
+                ["目標との距離400","Distance to target: 400"]
+            ]
+        },
+        "向かってくる":{
+            "english":"to come at",
+            "yomi":"むかってくる",
+            "examples":[
+                ["こちらに向かってきます","He's coming at us."]
+            ]
+        },
+        "訓練":{
+            "english":"training",
+            "yomi":"くんれん",
+            "examples":[
+                ["訓練通り","As you were trained"]
+            ]
+        },
+        "分かれる":{
+            "english":"split into",
+            "yomi":"わかれる",
+            "examples":[
+                ["５つに分かれろ","Split into five"]
+            ]
+        }
+    }
+}
