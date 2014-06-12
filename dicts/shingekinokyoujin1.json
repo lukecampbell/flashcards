@@ -27,21 +27,21 @@
             "english":"Bird cage",
             "yomi":"とりかご",
             "examples":[
-                ["鳥籠の中に{囚}{とら}われていた{屈辱}{くつじょく}を・・・","The humility of being imprisoned in a cage..."]
+                ["鳥籠の中に{囚}{とら}われていた{屈辱}{くつじょく}を・・・","The humiliation of being imprisoned like a bird in a cage..."]
             ]
         },
         "とらわれる":{
             "english":"be caught, be imprisoned",
             "yomi":"",
             "examples":[
-                ["{鳥籠}{とりかご}の中に囚われていた{屈辱}{くつじょく}を・・・","The humiliation of being imprisoned in a cage..."]
+                ["{鳥籠}{とりかご}の中に囚われていた{屈辱}{くつじょく}を・・・","The humiliation of being imprisoned like a bird in a cage..."]
             ]
         },
         "屈辱":{
             "english":"humiliation, disgrace",
             "yomi":"くつじょく",
             "examples":[
-                ["{鳥籠}{とりかご}の中に{囚}{とら}われていた屈辱を・・・","The humiliation of being imprisoned in a cage..."]
+                ["{鳥籠}{とりかご}の中に{囚}{とら}われていた屈辱を・・・","The humiliation of being imprisoned like a bird in a cage..."]
             ]
         },
         "総員":{
@@ -68,6 +68,7 @@
             "english":"target",
             "yomi":"もくひょう",
             "examples":[
+                ["目標は一体","We have one target."]
             ]
         },
         "仕留める":{
@@ -103,6 +104,168 @@
             "yomi":"わかれる",
             "examples":[
                 ["５つに分かれろ","Split into five"]
+            ]
+        },
+        "思い知る":{
+            "english":"to realize",
+            "yomi":"おもいしる",
+            "examples":[
+            ]
+        },
+        "暮れる":{
+            "english":"to become dark",
+            "yomi":"くれる",
+            "examples":[
+                ["もう帰らないと日が暮れる","If we don't go home soon, it'll get dark."]
+            ]
+        },
+        "伸びる":{
+            "english":"stretch or extend, postpone, make progress or improve, be exhausted, be straightened or smoothed out",
+            "yomi":"伸びる",
+            "examples":[
+                ["このゴムはよく伸びる","This rubber stretches well [is very elastic]."],
+                ["英語の力が大いに伸びたね", "You have made great progress with your English."],
+                ["頭に{一撃}{いちげき}をくらって彼は伸びてしまった","He passed out from one blow to the head"],
+                ["髪が伸びていない","You're hair isn't straightened/smoothed out."]
+            ]
+        },
+        "寝ぼける":{
+            "english":"to be half-asleep and talk nonsense",
+            "yomi":"ねぼける",
+            "examples":[
+                ["そんなに寝ぼけるまで{熟睡}{じゅくすい}してたの？","Was it such a deep sleep that you speak nonsense?"]
+            ]
+        },
+        "熟睡":{
+            "english":"deep sleep",
+            "yomi":"じゅくすい",
+            "examples":[
+                ["そんなに寝ぼけるまで熟睡してたの？","Was it such a deep sleep that you speak nonsense?"]
+            ]
+        },
+        "診る":{
+            "english":"to consult",
+            "yomi":"みる",
+            "examples":[
+                ["一度おじさんに診てもらったら","What about asking Ojisan?"]
+            ]
+        },
+        "やがて":{
+            "english":"almost, soon, presently, in a short while",
+            "yomi":"",
+            "examples":[
+                ["やがて君はそのことを後悔するでしょう","You'll be sorry for that soon."]
+            ]
+        },
+        "腹が減り":{
+            "english":"become hungry",
+            "yomi":"はらがへり",
+            "examples":[
+                ["やがて腹が減り喉も渇く","It doesn't take long for our bellies to become empty and our throats to become dry."]
+            ]
+        },
+        "渇く":{
+            "english":"to be thirsty",
+            "yomi":"かわく",
+            "examples":[
+                ["やがて腹が減り喉も渇く","It doesn't take long for our bellies to become empty and our throats to become dry."]
+            ]
+        },
+        "喉":{
+            "english":"throat",
+            "yomi":"のど",
+            "examples":[
+                ["やがて腹が減り喉も渇く","It doesn't take long for our bellies to become empty and our throats to become dry."]
+            ]
+        },
+        "攻撃":{
+            "english":"frontal assault, attack",
+            "yomi":"こうげき",
+            "examples":[
+                ["全攻撃班","All attack teams"]
+            ]
+        },
+        "立体":{
+            "english":"3D",
+            "yomi":"りったい",
+            "examples":[
+                ["立体軌道","3-D Maneuvering Gear"]
+            ]
+        },
+        "移る":{
+            "english":"to transfer to",
+            "yomi":"うつる",
+            "examples":[
+                ["全攻撃班は立体機動うつれ！","All attack teams, switch to 3d manuevering gear."]
+            ]
+        },
+        "方向":{
+            "english":"direction",
+            "yomi":"ほうこう",
+            "examples":[
+                ["全方向から同時に叩くぞ","Attack from all directions at once!"]
+            ]
+        },
+        "叩く":{
+            "english":"to strike",
+            "yomi":"たたく",
+            "examples":[
+                ["全方向から同時に叩くぞ","Attack from all directions at once!"]
+            ]
+        },
+        "門兵":{
+            "english":"Gate guard",
+            "yomi":"もんぺい",
+            "examples":[
+                ["今日は門兵","We're on gate-guard today."]
+            ]
+        },
+        "混じる":{
+            "english":"to mix in with",
+            "yomi":"まじる",
+            "examples":[
+                ["飲み物の中にたまたま酒が混じっていたことは些細な問題にすぎねえ・・・","If some of those drinks happen to be alcohol, it's not a big deal."]
+            ]
+        },
+        "些細":{
+            "english":"trivial",
+            "yomi":"ささい",
+            "examples":[
+                ["飲み物の中にたまたま酒が混じっていたことは些細な問題にすぎねえ・・・","If some of those drinks happen to be alcohol, it's not a big deal."]
+            ]
+        },
+        "〜にすぎない":{
+            "english":"no more than",
+            "yomi":"",
+            "examples":[
+                ["飲み物の中にたまたま酒が混じっていたことは些細な問題にすぎねえ・・・","If some of those drinks happen to be alcohol, it's not a big deal."]
+            ]
+        },
+        "いざという時に":{
+            "english":"...for the worst",
+            "yomi":"いざというときに",
+            "examples":[
+                ["そんなんでいざって時に戦えんの？","And if worst comes to worst, can fight as you are now?"]
+            ]
+        },
+        "壁":{
+            "english":"the wall",
+            "yomi":"かべ",
+            "examples":[
+                ["やつらが壁を壊して","They break the wall"]
+            ]
+        },
+        "せがれ":{
+            "english":"one's son",
+            "yomi":"",
+            "examples":[
+                ["元気がいいな医者のせがれ","The doc's son is in good spirits."]
+            ]
+        },
+        "恩人":{
+            "english":"benefactor",
+            "yomi":"恩人",
+            "examples":[
             ]
         }
     }
