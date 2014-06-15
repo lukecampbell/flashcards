@@ -150,7 +150,28 @@
             "examples":[
                 ["やる気を削がれます","To suck motivation"]
             ]
+        },
+        "活用":{
+            "english":"to use / take advantage of",
+            "yomi":"かつよう",
+            "examples":[
+                ["機会を十分に活用する","To take full advantage of the situation. (In the positive context of learning)"],
+                ["能力を最大限に活用する","To make full use of one's abilities"]
+            ]
+        },
+        "手っ取り早い":{
+            "english":"quick, simple, easy",
+            "yomi":"てっとりばやい",
+            "examples":[
+                ["海外と手っ取り早く繋がれる","Quickly and Simply connect with other (countries)"]
+            ]
+        },
+        "続々":{
+            "english":"one after another",
+            "yomi":"続々",
+            "examples":[
+                ["この他にも数えきれないほどのものが続々と登場しています。","There are many others, one after another, that appear."]
+            ]
         }
-
     }
 }
