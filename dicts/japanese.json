@@ -198,6 +198,85 @@
                 ["絶対に確信があります。","I am absolutely convinced."],
                 ["確信を持って言う","Say with conviction"]
             ]
+        },
+        "天性":{
+            "english":"by nature",
+            "yomi":"てんせい",
+            "examples":[
+                ["天性の怠け者","born lazy"]
+            ]
+        },
+        "怠け者":{
+            "english":"lazy bum",
+            "yomi":"なまけもの",
+            "examples":[
+            ]
+        },
+        "限界":{
+            "english":"limit",
+            "yomi":"げんかい",
+            "examples":[
+                ["もう限界です","You're at your limit already."]
+            ]
+        },
+        "ひざまずく":{
+            "english":"to kneel",
+            "yomi":"",
+            "examples":[
+                ["そこでひざまずけ！","Kneel before me!"]
+            ]
+        },
+        "くだらない":{
+            "english":"worthless",
+            "yomi":"",
+            "examples":[
+            ]
+        },
+        "小隊":{
+            "english":"team/platoon",
+            "yomi":"しょうたい",
+            "examples":[
+            ]
+        },
+        "お守り":{
+            "english":"an amulet",
+            "yomi":"おまもり",
+            "examples":[
+            ]
+        },
+        "超える":{
+            "english":"to exceed in skill",
+            "yomi":"こえる",
+            "examples":[
+                ["彼は英語の学力では彼女を超えている","He exceeds her in skill at English."]
+            ]
+        },
+        "逆らう":{
+            "english":"to resist",
+            "yomi":"さからう",
+            "examples":[
+                ["逆らえない","Can't resist"]
+            ]
+        },
+        "儀式":{
+            "english":"ceremony, ritual",
+            "yomi":"ぎしき",
+            "examples":[
+                ["転生儀式","The ritual of soul transfer"]
+            ]
+        },
+        "わざわざ":{
+            "english":"bother, trouble",
+            "yomi":"",
+            "examples":[
+                ["わざわざお手紙をいただきましてありがとうございました","Thank you for taking the trouble to write to me."]
+            ]
+        },
+        "同僚":{
+            "english":"coworker, colleague",
+            "yomi":"どうりょうく",
+            "examples":[
+            ]
         }
     }
 }
