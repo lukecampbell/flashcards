@@ -172,6 +172,32 @@
             "examples":[
                 ["この他にも数えきれないほどのものが続々と登場しています。","There are many others, one after another, that appear."]
             ]
+        },
+        "弱点":{
+            "english":"weakness, weak-point",
+            "yomi":"じゃくてん",
+            "examples":[
+            ]
+        },
+        "常に":{
+            "english":"always",
+            "yomi":"つねに",
+            "examples":[
+            ]
+        },
+        "既に":{
+            "english":"already",
+            "yomi":"すでに",
+            "examples":[
+            ]
+        },
+        "確信":{
+            "english":"conviction",
+            "yomi":"かくしん",
+            "examples":[
+                ["絶対に確信があります。","I am absolutely convinced."],
+                ["確信を持って言う","Say with conviction"]
+            ]
         }
     }
 }
