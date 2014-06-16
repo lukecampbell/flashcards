@@ -267,6 +267,90 @@
             "yomi":"恩人",
             "examples":[
             ]
+        },
+        "壁":{
+            "english":"wall",
+            "yomi":"かべ",
+            "examples":[
+                ["ヤツらにこの５０mの壁をどうこう出来るとは思えねえんだ","I don't think they can do this or that with this 50m wall."]
+            ]
+        },
+        "補強":{
+            "english":"reinforce",
+            "yomi":"ほきょう",
+            "examples":[
+                ["兵士になれば壁の補強作業とかで壁の外をうろつくヤツらを見かける機会があるんだが・・・","If you became a soldier, you might have an opportunity to catch them wandering about while reinforcing the wall..."]
+            ]
+        },
+        "作業":{
+            "english":"作業",
+            "yomi":"work, operation",
+            "examples":[
+                ["兵士になれば壁の補強作業とかで壁の外をうろつくヤツらを見かける機会があるんだが・・・","If you became a soldier, you might have an opportunity to catch them wandering about while reinforcing the wall..."]
+            ]
+        },
+        "うろつく":{
+            "english":"to wander around/lointer",
+            "yomi":"",
+            "examples":[
+                ["兵士になれば壁の補強作業とかで壁の外をうろつくヤツらを見かける機会があるんだが・・・","If you became a soldier, you might have an opportunity to catch them wandering about while reinforcing the wall..."]
+            ]
+        },
+        "そもそも":{
+            "english":"to start with, in the first place",
+            "yomi":"",
+            "examples":[
+                ["じゃあ　そもそもヤツらと戦う覚悟なんかねえんだな！","You mean, we're not even prepared to fight them in the first place!"]
+            ]
+        },
+        "兵団":{
+            "english":"corps",
+            "yomi":"へいだん",
+            "examples":[
+                ["駐屯兵団","(Chuuton Heidan) Stationed Corps"]
+            ]
+        },
+        "駐屯":{
+            "english":"(to) station",
+            "yomi":"ちゅうとん",
+            "examples":[
+                ["駐屯兵団","(Chuuton Heidan) Stationed Corps"]
+            ]
+        },
+        "名乗る":{
+            "english":"to be called, identify oneself as",
+            "yomi":"なのる",
+            "examples":[
+                ["もう「駐屯兵団」なんて名乗るのやめて「壁工事団」にしろよ！","Stop calling yourselves the Stationed Corps, and change it to Wall-construction corpse."]
+            ]
+        },
+        "活躍":{
+            "english":"be active, play a role in",
+            "yomi":"かつやく",
+            "examples":[
+                ["兵士が活躍するってことはそれこそ最悪の時だ","The worst time is when soldiers are active."]
+            ]
+        },
+        "役立たず":{
+            "english":"worthless",
+            "yomi":"やくたたず",
+            "examples":[
+                ["オレ達が役立たずの「タダメシ食らい」って馬鹿にされてる時の方がみんなは平和に暮らせるんだぞ","If us rice eating idiots are useless, isn't that better for everyone to live in peace?"]
+            ]
+        },
+        "囮":{
+            "english":"decoy",
+            "yomi":"おとり",
+            "examples":[
+                ["囮は我々が引き受ける。","We'll be the decoy(s)."]
+            ]
+        },
+        "引き受ける":{
+            "english":"take on the role",
+            "yomi":"ひきうける",
+            "examples":[
+                ["囮は我々が引き受ける。","We'll be the decoy(s)."]
+            ]
         }
     }
 }
