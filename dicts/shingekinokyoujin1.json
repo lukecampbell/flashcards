@@ -351,6 +351,184 @@
             "examples":[
                 ["囮は我々が引き受ける。","We'll be the decoy(s)."]
             ]
+        },
+        "調査":{
+            "english":"survey",
+            "yomi":"ちょうさ",
+            "examples":[
+                ["調査兵団","Survey Corps"]
+            ]
+        },
+        "連中":{
+            "english":"lot, fellows, guys",
+            "yomi":"れんちゅう",
+            "examples":[
+                ["壁のそとへ出ようって言う「調査兵団」の連中の気が知れねえ","I can't understand these guys, Chousa Heidan, that so called go outside the wall."]
+            ]
+        },
+        "気が知れない":{
+            "english":"unable to understand (reason, motive)",
+            "yomi":"きがしれない",
+            "examples":[
+                ["壁のそとへ出ようって言う「調査兵団」の連中の気が知れねえ","I can't understand these guys, Chousa Heidan, that so called go outside the wall."]
+            ]
+        },
+        "戦争":{
+            "english":"war",
+            "yomi":"せんそう",
+            "examples":[
+                ["勝手に戦争ごっこに興じてろってな！！","Doing as they please, getting a kick out of playing war"]
+            ]
+        },
+        "一生":{
+            "english":"All of one's life",
+            "yomi":"いっしょう",
+            "examples":[
+                ["一生壁の中から出られなくても・・・","Even if we spend our whole lives within the wall..."]
+            ]
+        },
+        "家畜":{
+            "english":"livestock",
+            "yomi":"かちく",
+            "examples":[
+            ]
+        },
+        "正面":{
+            "english":"the front",
+            "yomi":"正面",
+            "examples":[
+                ["正面の門","The front gate"]
+            ]
+        },
+        "英雄":{
+            "english":"hero",
+            "yomi":"えいゆう",
+            "examples":[
+                ["英雄の凱旋","A hero's return."]
+            ]
+        },
+        "凱旋":{
+            "english":"triumphant return",
+            "yomi":"がいせん",
+            "examples":[
+                ["英雄の凱旋","A hero's return."]
+            ]
+        },
+        "人垣":{
+            "english":"crowd of peopl",
+            "yomi":"ひとがき",
+            "examples":[
+                ["くそ、人垣でみえねえ","Damnit, with this crowd of people, I can't see anythin"]
+            ]
+        },
+        "以上":{
+            "english":"more than",
+            "yomi":"いじょう",
+            "examples":[
+                ["１００人以上で調査に向かったはずなのに","More than a hunded people headed out for the survey expedition."]
+            ]
+        },
+        "見当たらない":{
+            "english":"be missing",
+            "yomi":"みあたらない",
+            "examples":[
+            ]
+        },
+        "直接":{
+            "english":"direct, personal",
+            "yomi":"ちょくせつ",
+            "examples":[
+                ["なにか直接の手柄を立てたわけではなくても","No matter what personal great deed he did..."]
+            ]
+        },
+        "手柄":{
+            "english":"great deed",
+            "yomi":"てがら",
+            "examples":[
+                ["なにか直接の手柄を立てたわけではなくても","No matter what personal great deed he did..."]
+            ]
+        },
+        "糧":{
+            "english":"food, nourishment",
+            "yomi":"かて",
+            "examples":[
+                ["息子の死は人類の反撃の糧になったのですよね","My son's death became nourishment for mankind's counter attack right!?"]
+            ]
+        },
+        "成果":{
+            "english":"result",
+            "yomi":"yomi",
+            "examples":[
+                ["今回もなんの成果を得られませんでした","We couldn't make obtain any results this time too"]
+            ]
+        },
+        "無能":{
+            "english":"incompetent",
+            "yomi":"むのう",
+            "examples":[
+                ["私が無能なばかりに・・・","I've been nothing but incompetent"]
+            ]
+        },
+        "いたずらに":{
+            "english":"uselessly, in vain",
+            "yomi":"",
+            "examples":[
+                ["ただ、いたずらに兵士を死なせ・・・","I uselessly let soldiers die"]
+            ]
+        },
+        "正体":{
+            "english":"identity",
+            "yomi":"しょうたい",
+            "examples":[
+                ["ヤツらの正体を突き止めることができせんでした","We couldn't discover anything about them."]
+            ]
+        },
+        "えさ":{
+            "english":"feed",
+            "yomi":"",
+            "examples":[
+                ["オレらの税でヤツらにえさをやって太らせてるようなもんだな","It's as if our tax dollars are used to feed them and make them fat."]
+            ]
+        },
+        "薪":{
+            "english":"firewood",
+            "yomi":"まき",
+            "examples":[
+                ["薪が散ったじゃねえか","Now the firewood's all scattered isn't it."]
+            ]
+        },
+        "散る":{
+            "english":"to scatter",
+            "yomi":"ちる",
+            "examples":[
+                ["薪が散ったじゃねえか","Now the firewood's all scattered isn't it."]
+            ]
+        },
+        "拾う":{
+            "english":"pick up",
+            "yomi":"ひろう",
+            "examples":[
+            ]
+        },
+        "診療":{
+            "english":"medical exam",
+            "yomi":"しんりょう",
+            "examples":[
+            ]
+        },
+        "説得":{
+            "english":"persuade",
+            "yomi":"せっとく",
+            "examples":[
+                ["エレンを説得して","Convince Eren!"]
+            ]
+        },
+        "探求心":{
+            "english":"a true quest",
+            "yomi":"たんきゅうしん",
+            "examples":[
+                ["人間の探求心とは誰かに言われて抑えられるものではない","When someone's on a true quest, it's not something anyone can persuade."]
+            ]
         }
     }
 }
