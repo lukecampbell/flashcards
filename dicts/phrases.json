@@ -1,0 +1,13 @@
+{
+    "display": "アパートを借りる",
+    "author":"Luke",
+    "contents" : {
+        "気安い": {
+            "english": "friendly, on friendly terms",
+            "yomi" : "きやすい",
+            "examples" : [
+                ["気安く話しかけるな":"Don't talk to me like we're friends."]
+            ]
+        }
+    }
+}

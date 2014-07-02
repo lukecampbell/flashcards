@@ -15,7 +15,8 @@
             "english" : "lost",
             "yomi":"まよった",
             "examples": [
-                ["道を迷った","We've lost our way."]
+                ["道に迷った","We've lost our way."],
+                ["さんざん迷った末に・・・","After so much hesitation..."]
             ]
         },
         "限り" : {
@@ -116,8 +117,8 @@
                 ["動物を残酷に{扱}{あつか}うな","Don't treat animals cruelly."]
             ]
         },
-        "同性" :{
-            "english":"living together",
+        "同棲" :{
+            "english":"living together, cohabitation",
             "yomi":"どうせい",
             "examples": [
                 [" 彼女と同棲する","Living with her"]
@@ -163,12 +164,12 @@
             "english":"quick, simple, easy",
             "yomi":"てっとりばやい",
             "examples":[
-                ["海外と手っ取り早く繋がれる","Quickly and Simply connect with other (countries)"]
+                ["海外と手っ取り早く{繋}{つな}がれる","Quickly and Simply connect with other (countries)"]
             ]
         },
         "続々":{
             "english":"one after another",
-            "yomi":"続々",
+            "yomi":"ぞくぞく",
             "examples":[
                 ["この他にも数えきれないほどのものが続々と登場しています。","There are many others, one after another, that appear."]
             ]
@@ -177,6 +178,7 @@
             "english":"weakness, weak-point",
             "yomi":"じゃくてん",
             "examples":[
+                ["彼は弱点の{克服}{こくふく}に{努力}{どりょく}した", "He tried to overcome his weaknesses."]
             ]
         },
         "常に":{
@@ -196,7 +198,8 @@
             "yomi":"かくしん",
             "examples":[
                 ["絶対に確信があります。","I am absolutely convinced."],
-                ["確信を持って言う","Say with conviction"]
+                ["確信を持って言う","Say with conviction"],
+                ["勝利を確信している。", "I'm certain of victory."]
             ]
         },
         "天性":{
@@ -239,9 +242,10 @@
             ]
         },
         "お守り":{
-            "english":"an amulet",
+            "english":"protection, babysitting",
             "yomi":"おまもり",
             "examples":[
+                ["そして一寸法師は、その家のお姫さまのお守り役になったのです。", "And, Issun-boushi was good at baby-sitting the daughter."]
             ]
         },
         "超える":{
@@ -276,6 +280,20 @@
             "english":"coworker, colleague",
             "yomi":"どうりょうく",
             "examples":[
+            ]
+        },
+        "寄せる": {
+            "english": "to gather, to collect, to receive",
+            "yomi" : "よせる",
+            "examples" : [
+                ["これは、日本語学習者から寄せられる最も{代表的}{だいひょうてき}な質問です。","This is the most typical question I get."]
+            ]
+        },
+        "そもそも": {
+            "english": "to start with",
+            "yomi" : "",
+            "examples" : [
+                ["そもそも、なぜ彼らはそれらの違いについて質問するのでしょうか？","To start with, why do they ask about those differences?"]
             ]
         }
     }

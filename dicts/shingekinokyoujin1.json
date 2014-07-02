@@ -363,14 +363,14 @@
             "english":"lot, fellows, guys",
             "yomi":"れんちゅう",
             "examples":[
-                ["壁のそとへ出ようって言う「調査兵団」の連中の気が知れねえ","I can't understand these guys, Chousa Heidan, that so called go outside the wall."]
+                ["{壁}{かべ}のそとへ出ようって言う「調査兵団」の連中の気が知れねえ","I can't understand these guys, Chousa Heidan, that so called go outside the wall."]
             ]
         },
         "気が知れない":{
             "english":"unable to understand (reason, motive)",
             "yomi":"きがしれない",
             "examples":[
-                ["壁のそとへ出ようって言う「調査兵団」の連中の気が知れねえ","I can't understand these guys, Chousa Heidan, that so called go outside the wall."]
+                ["{壁}{かべ}のそとへ出ようって言う「調査兵団」の連中の気が知れねえ","I can't understand these guys, Chousa Heidan, that so called go outside the wall."]
             ]
         },
         "戦争":{
@@ -457,7 +457,7 @@
         },
         "成果":{
             "english":"result",
-            "yomi":"yomi",
+            "yomi":"せいか",
             "examples":[
                 ["今回もなんの成果を得られませんでした","We couldn't make obtain any results this time too"]
             ]
@@ -528,6 +528,54 @@
             "yomi":"たんきゅうしん",
             "examples":[
                 ["人間の探求心とは誰かに言われて抑えられるものではない","When someone's on a true quest, it's not something anyone can persuade."]
+            ]
+        },
+        "地下室": {
+            "english": "cellar",
+            "yomi" : "ちかしつ",
+            "examples" : [
+                ["帰ったらずっと{秘密}{ひみつ}にしていた地下室を見せてやろう。","When you get back, I'll definitely show you the secret in the basement."]
+            ]
+        },
+        "よほど": {
+            "english": "very much, very, greatly",
+            "yomi" : "",
+            "examples" : [
+                ["オレには・・・{家畜}{かちく}でも平気でいられる人間の方がよっぽどマヌケに見えるね！","As for my take on the matter, humans living as carefree cattle are the more foolish."]
+            ]
+        },
+        "助け合う": {
+            "english": "help each other out",
+            "yomi" : "たすけあう",
+            "examples" : [
+                ["困った時は二人で助け合うんだよ","Help each other out when the times get tough."]
+            ]
+        },
+        "異端": {
+            "english": "heresy",
+            "yomi" : "いたん",
+            "examples" : [
+                ["異端者","Heretic"],
+                ["どうした、異端者", "What's wrong, hethen"]
+            ]
+        },
+        "殴る": {
+            "english": "to hit, punch",
+            "yomi" : "なぐる",
+            "examples" : [
+                ["悔しかったら殴り返してみろよ","If you're frustrated, hit back!"]
+            ]
+        },
+        "屁理屈野郎": {
+            "english": "quibbling bastard",
+            "yomi" : "へりくつやろう",
+            "examples" : [
+            ]
+        }gg,
+        "ぶちのめす": {
+            "english": "to pound, beat up",
+            "yomi" : "",
+            "examples" : [
             ]
         }
     }
