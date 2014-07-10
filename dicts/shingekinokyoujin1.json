@@ -571,11 +571,18 @@
             "yomi" : "へりくつやろう",
             "examples" : [
             ]
-        }gg,
+        },
         "ぶちのめす": {
             "english": "to pound, beat up",
             "yomi" : "",
             "examples" : [
+            ]
+        },
+        "以て": {
+            "english": "as of",
+            "yomi" : "もって",
+            "examples" : [
+                ["本日を以て訓練兵を卒業する":"As of today, you graduate from the Training Corps."]
             ]
         }
     }

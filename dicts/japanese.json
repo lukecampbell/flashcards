@@ -278,7 +278,7 @@
         },
         "同僚":{
             "english":"coworker, colleague",
-            "yomi":"どうりょうく",
+            "yomi":"どうりょう",
             "examples":[
             ]
         },
@@ -294,6 +294,21 @@
             "yomi" : "",
             "examples" : [
                 ["そもそも、なぜ彼らはそれらの違いについて質問するのでしょうか？","To start with, why do they ask about those differences?"]
+            ]
+        },
+        "先刻": {
+            "english": "already",
+            "yomi" : "せんこく",
+            "examples" : [
+                ["先刻ご承知のとおり","As you already know"]
+            ]
+        },
+        "承諾": {
+            "english": "consent",
+            "yomi" : "しょうだく",
+            "examples" : [
+                ["無言は承諾","Silence is consent."],
+                ["沈黙は承諾の印","Silence gives consent."]
             ]
         }
     }
