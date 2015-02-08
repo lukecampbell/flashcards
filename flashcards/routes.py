@@ -26,6 +26,6 @@ def get_entries():
             records.append(entry.serialize())
 
     if not records:
-        return josnify(), 204
+        return jsonify(), 204
 
     return jsonify(entries=records, length=len(records))

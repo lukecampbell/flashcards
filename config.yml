@@ -1,0 +1,16 @@
+COMMON: &common
+  HOST: localhost
+  PORT: 8080
+  DEBUG: False
+  CACHE_TYPE: simple
+  SECRET_KEY: 4dc2585d4cb34367a157dea532e710bd
+  MONGODB_DATABASE: flashcards
+  MONGODB_HOST: localhost
+  MONGODB_PORT: 27017
+  MONGODB_USERNAME: null
+  MONGODB_PASSWORD: null
+
+DEVELOPMENT: &development
+  <<: *common
+  DEBUG: True
+  PORT: 3032
