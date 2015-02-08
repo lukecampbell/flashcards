@@ -32,10 +32,10 @@ var FlashcardView = Backbone.View.extend({
   },
   render: function() {
     this.$el.html(this.template({model: this.model}));
-    this.$el.find('.footer-content').hide();
+    this.$el.find('.bottom').hide();
   },
   show: function() {
-    this.$el.find('.footer-content').show();
+    this.$el.find('.bottom').show();
   },
   template: JST['app/partials/Flashcard.html']
 });
