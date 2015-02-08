@@ -14,6 +14,13 @@ def dictionary_view(dictname):
         raise NotFound()
     return render_template('dictionary_view.html', title=dictname, dictionary_id=str(dictionary._id))
 
+@app.route('/entries/<string:dictname>/')
+def entry_view(dictname):
+    dictionary = db.Dictionary.find_one({"name": dictname})
+    if dictionary is None:
+        raise NotFound()
+    return render_template('entry_view.html', title=dictname, dictionary_id=str(dictionary._id))
+
 @app.route('/api/dictionary', methods=['GET'])
 def get_dictionaries():
     records = []

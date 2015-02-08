@@ -42,10 +42,12 @@ module.exports = function(grunt) {
         },
         files: {
           'static/css/base.css': [
-            'components/bootstrap/dist/css/bootstrap.css'
+            'components/bootstrap/dist/css/bootstrap.css',
+            'components/font-awesome/css/font-awesome.css'
           ],
           'static/css/index.css': [
             'components/bootstrap/dist/css/bootstrap.css',
+            'components/font-awesome/css/font-awesome.css',
             'app/css/*.css'
           ]
         }
@@ -70,10 +72,20 @@ module.exports = function(grunt) {
         options: {
         }
       }
+    },
+    copy: {
+      main: {
+        files: [
+          // includes files within path
+          {expand: true, flatten: true, src: ['components/font-awesome/fonts/*'], dest: 'static/fonts/', filter: 'isFile'},
+          {expand: true, flatten: true, src: ['components/bootstrap/fonts/*'], dest: 'static/fonts/', filter: 'isFile'}
+        ]
+      }
     }
   });
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-jst');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.registerTask('default', ['jst', 'concat']);
+  grunt.registerTask('default', ['jst', 'concat', 'copy']);
+  grunt.loadNpmTasks('grunt-contrib-copy');
 };

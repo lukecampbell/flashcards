@@ -3,6 +3,7 @@
     <tr>
       <th>Dictionary Name</th>
       <th>Author</th>
+      <th>View</th>
     </tr>
   </thead>
   <tbody>
@@ -10,6 +11,7 @@
     <tr class="clickable" data-id="<%= dictionary.get('_id') %>">
       <td><%= dictionary.get('display') %></td>
       <td><%= dictionary.get('author') %></td>
+      <td><a href="/entries/<%= dictionary.get('name') %>/"><span class="fa fa-list-ul"> </span></a></td>
     </tr>
     <% }); %>
   </tbody>

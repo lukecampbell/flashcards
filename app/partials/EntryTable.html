@@ -1,0 +1,20 @@
+<table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <th>日本語</th>
+      <th>読み</th>
+      <th>English</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% collection.each(function(model) { %>
+    <tr class="clickable" data-id="<%= model.get('_id') %>">
+      <td><%= parseFuri(model.get('title')) %></td>
+      <td><%= parseFuri(model.get('yomi')) %></td>
+      <td><%= parseFuri(model.get('english')) %></td>
+    </tr>
+    <% }); %>
+  </tbody>
+</table>
+
+
