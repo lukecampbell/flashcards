@@ -19,11 +19,16 @@ module.exports = function(grunt) {
           },
         },
         files: {
+          'static/js/base.js' : [
+            'components/jquery/dist/jquery.js',
+            'components/bootstrap/dist/js/bootstrap.js'
+          ],
           'static/js/index.js' : [
             'components/jquery/dist/jquery.js',
             'components/bootstrap/dist/js/bootstrap.js',
             'components/underscore/underscore.js',
             'components/backbone/backbone.js',
+            'app/js/*.js',
             'app/views/*.js',
             'app/models/*.js'
           ]
@@ -36,6 +41,9 @@ module.exports = function(grunt) {
           }
         },
         files: {
+          'static/css/base.css': [
+            'components/bootstrap/dist/css/bootstrap.css'
+          ],
           'static/css/index.css': [
             'components/bootstrap/dist/css/bootstrap.css',
             'app/css/*.css'

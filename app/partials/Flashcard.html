@@ -1,0 +1,26 @@
+<section class="container">
+  <div class="flip"> 
+    <div id="card" class="card"> 
+        <div class="face front"> 
+          <%= parseFuri(model.get('title')) %>
+        </div> 
+        <div class="face back"> 
+          <%= model.get('english') %>
+        </div> 
+      </div> 
+    </div> 
+
+    <div class="footer-content col-sm-8">
+      <% _.each(model.get('examples'), function(example) { %>
+        <div class="top-part">
+          <%= parseFuri(example[0]) %>
+        </div>
+        <div class="bot-part">
+          <%= example[1] %>
+        </div>
+      <% }); %>
+    </div>
+    <div class="side-content col-sm-4">
+      <%= parseFuri(model.get('yomi')) %>
+    </div>
+</section>
