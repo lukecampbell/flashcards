@@ -1,0 +1,27 @@
+{
+  "name": "flashcards",
+  "version": "0.0.0",
+  "description": "Installation ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lukecampbell/flashcards.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukecampbell/flashcards/issues"
+  },
+  "homepage": "https://github.com/lukecampbell/flashcards",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-concat-css": "~0.3.1",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-jst": "~0.6.0",
+    "grunt-contrib-uglify": "~0.7.0",
+    "grunt-contrib-watch": "~0.6.1"
+  }
+}
