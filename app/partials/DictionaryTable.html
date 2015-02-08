@@ -1,0 +1,17 @@
+<table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Dictionary Name</th>
+      <th>Author</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% collection.each(function(dictionary) { %>
+    <tr class="clickable" data-id="<%= dictionary.get('_id') %>">
+      <td><%= dictionary.get('display') %></td>
+      <td><%= dictionary.get('author') %></td>
+    </tr>
+    <% }); %>
+  </tbody>
+</table>
+

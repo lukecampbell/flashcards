@@ -29,8 +29,9 @@ _.extend(App.prototype, Backbone.Events, {
   },
   start: function() {
     this.collections.dictionaries.fetch({reset: true});
-    this.views.tableView = new TableView({
-      el: $('#table-view')
+    this.views.dictionaryTableView = new DictionaryTableView({
+      el: $('#table-view'),
+      collection: this.collections.dictionaries
     });
   }
 });
