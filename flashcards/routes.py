@@ -1,10 +1,18 @@
 from flask import render_template, send_file, make_response, jsonify, request
 from bson import ObjectId
 from app import app, db
+from werkzeug.exceptions import NotFound
 
 @app.route("/")
 def root():
     return render_template("index.html")
+
+@app.route('/dictionary/<string:dictname>/')
+def dictionary_view(dictname):
+    dictionary = db.Dictionary.find_one({"name": dictname})
+    if dictionary is None:
+        raise NotFound()
+    return render_template('dictionary_view.html', title=dictname, dictionary_id=str(dictionary._id))
 
 @app.route('/api/dictionary', methods=['GET'])
 def get_dictionaries():
@@ -29,3 +37,7 @@ def get_entries():
         return jsonify(), 204
 
     return jsonify(entries=records, length=len(records))
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
