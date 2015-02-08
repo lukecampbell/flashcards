@@ -3,6 +3,9 @@ module.exports = function(grunt) {
     jst: {
       compile: {
         files: {
+          'static/partials/index.js' : [
+            'app/partials/*.html'
+          ]
         }
       }
     },
@@ -18,7 +21,11 @@ module.exports = function(grunt) {
         files: {
           'static/js/index.js' : [
             'components/jquery/dist/jquery.js',
-            'components/bootstrap/dist/js/bootstrap.js'
+            'components/bootstrap/dist/js/bootstrap.js',
+            'components/underscore/underscore.js',
+            'components/backbone/backbone.js',
+            'app/views/*.js',
+            'app/models/*.js'
           ]
         }
       },
@@ -30,14 +37,32 @@ module.exports = function(grunt) {
         },
         files: {
           'static/css/index.css': [
-            'components/bootstrap/dist/css/bootstrap.css'
+            'components/bootstrap/dist/css/bootstrap.css',
+            'app/css/*.css'
           ]
         }
       }
     },
     watch: {
+      scripts: {
+        files: ['app/**/*.js'],
+        tasks: ['concat'],
+        options: {
+        }
+      },
+      css: {
+        files: ['app/**/*.css'],
+        tasks: ['concat'],
+        options: {
+        }
+      },
+      partials: {
+        files: ['app/**/*.html'],
+        tasks: ['jst'],
+        options: {
+        }
+      }
     }
-
   });
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-jst');
