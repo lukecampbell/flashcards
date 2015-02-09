@@ -18,7 +18,7 @@ var DictionaryTableView = Backbone.View.extend({
     var model = this.collection.get(model_id);
     if(model) {
       app.trigger('TableView:select');
-      window.location.href = '/dictionary/' + model.get('name') + '/';
+      window.location.href = '/entries/' + model.get('name') + '/';
     }
   },
   template: JST['app/partials/DictionaryTable.html'],
