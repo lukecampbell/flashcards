@@ -4,6 +4,7 @@
       <th>日本語</th>
       <th>読み</th>
       <th>English</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -12,6 +13,7 @@
       <td><%= parseFuri(model.get('title')) %></td>
       <td><%= parseFuri(model.get('yomi')) %></td>
       <td><%= parseFuri(model.get('english')) %></td>
+      <td><a href="#"><span class="fa fa-edit"> Edit</span></a></td>
     </tr>
     <% }); %>
   </tbody>

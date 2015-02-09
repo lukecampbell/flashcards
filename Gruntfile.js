@@ -28,6 +28,7 @@ module.exports = function(grunt) {
             'components/bootstrap/dist/js/bootstrap.js',
             'components/underscore/underscore.js',
             'components/backbone/backbone.js',
+            'components/backbone.stickit/backbone.stickit.js',
             'app/js/*.js',
             'app/views/*.js',
             'app/models/*.js'

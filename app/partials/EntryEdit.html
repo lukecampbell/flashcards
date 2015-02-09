@@ -1,0 +1,18 @@
+<a id="sidebar-close" href="#">
+  <span class="fa fa-close"></span>
+</a>
+<form>
+  <div class="form-group">
+    <label for="entryTitle">Title</label>
+    <input type="text" class="form-control" id="entryTitle" placeholder="<%= model.get('title') %>">
+  </div>
+  <div class="form-group">
+    <label for="yomi">Yomi</label>
+    <input type="text" class="form-control" id="yomi" placeholder="<%= model.get('yomi') %>">
+  </div>
+  <div class="form-group">
+    <label for="English">English</label>
+    <input type="text" class="form-control" id="english" placeholder="<%= model.get('english') %>">
+  </div>
+  <button type="submit" class="btn btn-default">Save</button>
+</form>
