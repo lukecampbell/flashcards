@@ -165,3 +165,7 @@ tr.clickable {
 .example-list ul {
     list-style-type: none;
 }
+
+.side-content a {
+    text-decoration: none;
+}

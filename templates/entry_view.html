@@ -71,16 +71,18 @@ _.extend(App.prototype, Backbone.Events, {
       el: $('#sidebar-wrapper')
     });
     this.listenTo(this, 'app:edit', function(model) {
-      console.log(model.attributes);
+      console.log("toggled");
       $('#wrapper').toggleClass('toggled');
     });
     this.listenTo(this, 'app:toggleSidebar', function() {
+      console.log("toggled");
       $('#wrapper').toggleClass('toggled');
     });
     $('#go-flashcard').click(function() {
       window.location.href = '/dictionary/' + self.models.dictionary.get('name') + '/';
     });
-    $('#new-entry').click(function() {
+    $('#new-entry').click(function(e) {
+      e.stopPropagation();
       self.trigger('app:edit', new EntryModel());
     });
 

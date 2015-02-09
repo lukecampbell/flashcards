@@ -23,6 +23,7 @@ var EntryEditView = Backbone.View.extend({
   },
   onNewExample: function(e) {
     e.preventDefault();
+    this.bindExamples();
     var currentExampleSet = this.model.get('examples');
     currentExampleSet.push([
       "日本語",
@@ -31,11 +32,7 @@ var EntryEditView = Backbone.View.extend({
     this.model.set('examples', currentExampleSet);
     this.render();
   },
-  onSubmit: function(e) {
-    var self = this;
-    e.preventDefault();
-    this.model.set('dictionary_id', app.models.dictionary.get('_id'));
-    var newModel = this.model.isNew();
+  bindExamples: function() {
     var examples = [];
     this.$el.find('.example-set').each(function(t) {
       examples.push([
@@ -44,6 +41,13 @@ var EntryEditView = Backbone.View.extend({
       ]);
     });
     this.model.set('examples', examples);
+  },
+  onSubmit: function(e) {
+    var self = this;
+    e.preventDefault();
+    this.model.set('dictionary_id', app.models.dictionary.get('_id'));
+    var newModel = this.model.isNew();
+    this.bindExamples();
     this.model.save();
     if(newModel) {
       app.collections.entries.add(this.model);

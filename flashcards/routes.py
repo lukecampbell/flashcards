@@ -75,6 +75,7 @@ def post_entry():
     entry.title = data.get('title', entry.title)
     entry.yomi = data.get('yomi', entry.yomi)
     entry.english = data.get('english', entry.english)
+    entry.examples = data.get('examples', entry.examples)
     entry.save()
     return jsonify(**entry.serialize()), 200
 

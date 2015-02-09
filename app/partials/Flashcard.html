@@ -22,7 +22,9 @@
       <% }); %>
     </div>
     <div class="side-content col-sm-4">
-      <%= parseFuri(model.get('yomi')) %>
+      <a href="http://ja.forvo.com/search/<%= encodeURIComponent(model.get('title'))%>/">
+        <%= parseFuri(model.get('yomi')) %>
+      </a>
     </div>
   </div>
 </section>
