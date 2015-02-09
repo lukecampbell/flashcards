@@ -36,12 +36,24 @@ def get_dictionaries():
         return jsonify(), 204
     return jsonify(dictionaries=records, length=len(records))
 
+@app.route('/api/dictionary', methods=['POST'])
+def post_dictionary():
+    data = json.loads(request.data)
+    dictionary = db.Dictionary()
+    dictionary.name = data.get('name')
+    dictionary.author = data.get('author')
+    dictionary.display = data.get('display')
+    dictionary.save()
+    return jsonify(**dictionary.serialize()), 201
+
+
 @app.route('/api/dictionary/<string:id>', methods=['GET'])
 def get_dictionary(id):
     dictionary = db.Dictionary.find_one({'_id' : ObjectId(id)})
     if dictionary is None:
         return jsonify(), 204
     return jsonify(**dictionary.serialize()), 200
+
 
 @app.route('/api/entry', methods=['GET'])
 def get_entries():
