@@ -14,5 +14,17 @@
     <label for="English">English</label>
     <input type="text" class="form-control" id="english" placeholder="<%= model.get('english') %>">
   </div>
+  <div class="example-list form-group">
+    <ul id="examples">
+    <% _.each(model.get('examples'), function(example, index, examples) { %>
+      <li class="example-set">
+        <input type="text" class="form-control" id="nihongo-<%=index%>" placeholder="<%= example[0] %>">
+        <input type="text" class="form-control" id="example-<%=index%>" placeholder="<%= example[1] %>">
+      </li>
+    <% }); %>
+    </ul>
+    <a id='new-example' href="#"><span class="fa fa-plus"> New Example</span></a>
+  </div>
+  <hr>
   <button type="submit" class="btn btn-default">Save</button>
 </form>
