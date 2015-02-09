@@ -22,3 +22,17 @@ var EntryCollection = Backbone.Collection.extend({
     return [];
   }
 });
+
+var EntrySearchCollection = Backbone.Collection.extend({
+  url: '/api/search',
+  model: EntryModel,
+  parse: function(response) {
+    if(response && response.results) {
+      var results = _.map(response.results, function(result) {
+        return result.obj;
+      });
+      return results;
+    }
+    return [];
+  }
+});
