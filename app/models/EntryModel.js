@@ -6,7 +6,9 @@ var EntryModel = Backbone.Model.extend({
     english: "",
     title: "",
     yomi: "",
-    examples: []
+    examples: [
+      ["実例","An example"]
+    ]
   }
 });
 
