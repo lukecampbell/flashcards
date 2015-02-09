@@ -7,7 +7,6 @@ var EntryModel = Backbone.Model.extend({
     title: "",
     yomi: "",
     examples: [
-      ["実例","An example"]
     ]
   }
 });
@@ -18,6 +17,20 @@ var EntryCollection = Backbone.Collection.extend({
   parse: function(response) {
     if(response) {
       return response.entries;
+    }
+    return [];
+  }
+});
+
+var EntrySearchCollection = Backbone.Collection.extend({
+  url: '/api/search',
+  model: EntryModel,
+  parse: function(response) {
+    if(response && response.results) {
+      var results = _.map(response.results, function(result) {
+        return result.obj;
+      });
+      return results;
     }
     return [];
   }

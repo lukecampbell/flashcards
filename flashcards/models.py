@@ -1,4 +1,5 @@
 from flask.ext.mongokit import MongoKit, Document
+from pymongo import TEXT
 from datetime import datetime
 from app import db
 from bson import ObjectId

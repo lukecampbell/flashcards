@@ -19,7 +19,7 @@ var FlashcardView = Backbone.View.extend({
     this.flip();
   },
   onKey: function(e) {
-    if(e.keyCode == 32) {
+    if(e.keyCode == 32 || e.keyCode == 40) {
       this.flip();
       this.show();
     } else if (e.keyCode == 13 || e.keyCode == 39) {

@@ -23,6 +23,10 @@ def entry_view(dictname):
         raise NotFound()
     return render_template('entry_view.html', title=dictname, dictionary_id=str(dictionary._id))
 
+@app.route('/search')
+def search():
+    return render_template('search.html')
+
 @app.route('/api/dictionary', methods=['GET'])
 def get_dictionaries():
     records = []
@@ -71,10 +75,27 @@ def post_entry():
     entry.title = data.get('title', entry.title)
     entry.yomi = data.get('yomi', entry.yomi)
     entry.english = data.get('english', entry.english)
+    entry.examples = data.get('examples', entry.examples)
     entry.save()
     return jsonify(**entry.serialize()), 200
 
+def serialize(dictlike):
+    for k,v in dictlike.iteritems():
+        if isinstance(v, ObjectId):
+            print 'yup'
+            dictlike[k] = str(v)
+        if isinstance(v, dict):
+            dictlike[k] = serialize(v)
+    return dictlike
 
+@app.route('/api/search', methods=['GET'])
+def get_search():
+    query = request.args['q']
+    results = db.Entry.find_fulltext(query)
+    for r in results['results']:
+        print r
+    results['results'] = [serialize(r) for r in results['results']]
+    return jsonify(**results)
 
 @app.route('/api/entry/<string:id>', methods=['PUT'])
 def put_entry(id):

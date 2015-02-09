@@ -41,6 +41,9 @@ Object.size = function(obj) {
     return size;
 };
 
+function getURLParameter(name) {
+  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+}
 
 /*
  * Parses furigana escapes in dictionary entries.
