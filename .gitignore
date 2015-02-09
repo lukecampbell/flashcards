@@ -5,3 +5,4 @@ node_modules/
 static/css/*.css
 static/js/*.js
 static/partials/
+static/fonts/

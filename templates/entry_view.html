@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block title %}{{title}}{% endblock %}
+
+{% block head %}
+<link href="/css/index.css" rel="stylesheet" type="text/css">
+<script src="/partials/index.js" type="text/javascript"></script>
+<script src="/js/index.js" type="text/javascript"></script>
+{% endblock %}
+
+
+{% block body %}
+<div id="navbar">
+</div>
+<div class="wrapper" id="wrapper">
+  <div id="sidebar-wrapper">
+  </div>
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a id="go-flashcard" href="#">
+                <strong>
+                  <span class="fa fa-list"> Flashcards</span>
+                </strong>
+              </a>
+              <div class="pull-right">
+                <a id="new-entry" href="#">
+                  <span class="fa fa-plus"> New Entry</span>
+                </a>
+              </div>
+            </div> <!-- .panel-heading -->
+            <div class="panel-body">
+              <div id="entry-view" class="col-sm-12">
+              </div> <!-- #table-view -->
+            </div> <!-- .panel-body -->
+          </div> <!-- .panel -->
+        </div> <!-- .col -->
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- #page-content-wrapper -->
+</div> <!-- #wrapper -->
+<script type="text/javascript">
+
+var dictionary_id = "{{dictionary_id}}";
+var App = function() {
+}
+_.extend(App.prototype, Backbone.Events, {
+  collections: {
+    entries: new EntryCollection()
+  },
+  views: {
+    navbar: new NavbarView({el : $('#navbar')}),
+  },
+  models: {
+    dictionary: new DictionaryModel({_id: dictionary_id})
+  },
+  start: function() {
+    var self = this;
+    this.models.dictionary.fetch();
+    this.collections.entries.fetch({
+      data: $.param({dictionary_id: dictionary_id}),
+      reset: true
+    });
+    this.views.entryTableView = new EntryTableView({
+      collection: this.collections.entries,
+      el: $('#entry-view')
+    });
+    this.views.entryEditView = new EntryEditView({
+      el: $('#sidebar-wrapper')
+    });
+    this.listenTo(this, 'app:edit', function(model) {
+      console.log(model.attributes);
+      $('#wrapper').toggleClass('toggled');
+    });
+    this.listenTo(this, 'app:toggleSidebar', function() {
+      $('#wrapper').toggleClass('toggled');
+    });
+    $('#go-flashcard').click(function() {
+      window.location.href = '/dictionary/' + self.models.dictionary.get('name') + '/';
+    });
+    $('#new-entry').click(function() {
+      self.trigger('app:edit', new EntryModel());
+    });
+
+  }
+});
+
+var app = new App();
+
+$(document).ready(function() {
+    app.start();
+});
+</script>
+{% endblock %}
+
+
