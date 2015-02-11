@@ -10,7 +10,12 @@ var FlashcardView = Backbone.View.extend({
   flip: function() {
     this.$el.find('#card').toggleClass('flipped');
   },
+  setEnglishFront: function(val) {
+    this.englishFront = val;
+    this.render();
+  },
   initialize: function() {
+    this.englishFront = false;
     this.listenTo(app, 'app:keydown', this.onKey);
     this.listenTo(this.collection, 'reset', this.onReady)
   },
@@ -31,7 +36,7 @@ var FlashcardView = Backbone.View.extend({
     this.render();
   },
   render: function() {
-    this.$el.html(this.template({model: this.model}));
+    this.$el.html(this.template({model: this.model, englishFront: this.englishFront}));
     this.$el.find('.bottom').hide();
   },
   show: function() {

@@ -2,10 +2,18 @@
   <div class="flip"> 
     <div id="card" class="card"> 
       <div class="face front"> 
+        <% if(englishFront) { %>
+        <%= model.get('english') %>
+        <% } else { %>
         <%= parseFuri(model.get('title')) %>
+        <% } %>
       </div> 
       <div class="face back"> 
+        <% if(englishFront) { %>
+        <%= parseFuri(model.get('title')) %>
+        <% } else { %>
         <%= model.get('english') %>
+        <% } %>
       </div> 
     </div> 
   </div> 

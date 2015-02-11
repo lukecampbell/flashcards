@@ -29,13 +29,28 @@ _.extend(App.prototype, Backbone.Events, {
     entries: new EntryCollection()
   },
   views: {
-    navbar: new NavbarView({el : $('#navbar')})
+    navbar: new NavbarView({el : $('#navbar')}),
+    navLinkView: new NavLinkView()
   },
   start: function() {
+    var self = this;
     this.collections.entries.fetch({
       data: $.param({dictionary_id: dictionary_id}),
       reset: true
     });
+
+    this.views.navbar.add(this.views.navLinkView);
+    this.views.navLinkView.add(new NavLinkItemView({
+      href: '#',
+      label: '日本語',
+      onClick: function() { self.views.flashcard.setEnglishFront(false); }
+    }));
+    this.views.navLinkView.add(new NavLinkItemView({
+      href: '#',
+      label: 'English',
+      onClick: function() { self.views.flashcard.setEnglishFront(true); }
+    }));
+
     this.views.flashcard = new FlashcardView({
       collection: this.collections.entries
     });
