@@ -4,7 +4,8 @@ var DictionaryModel = Backbone.Model.extend({
   defaults: {
     author: "",
     display: "",
-    name: ""
+    name: "",
+    entries: 0
   }
 });
 

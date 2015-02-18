@@ -36,6 +36,9 @@ var NavLinkItemView = Backbone.View.extend({
     if(this.clientClick) {
       this.clientClick({href: this.href, label: this.label});
     }
+    if(this.href != '#') {
+      window.location.href = this.href;
+    }
   },
   render: function() {
     this.$el.html('<a href="' + this.href +'">' + this.label + '</a>');

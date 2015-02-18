@@ -10,6 +10,8 @@ class BaseDocument(Document):
         for k,v in response.iteritems():
             if isinstance(v, ObjectId):
                 response[k] = str(v)
+        if hasattr(self, 'entries'):
+            response[u'entries'] = self.entries
         return response
 
 @db.register
@@ -21,6 +23,10 @@ class Dictionary(BaseDocument):
         'author' : unicode
     }
     use_dot_notation = True
+
+    @property
+    def entries(self):
+        return db.Entry.find({"dictionary_id":self._id}).count()
 
 @db.register
 class Entry(BaseDocument):

@@ -28,6 +28,10 @@ _.extend(App.prototype, Backbone.Events, {
   collections: {
     entries: new EntryCollection()
   },
+  models: {
+    dictionary: new DictionaryModel({_id: dictionary_id})
+  },
+
   views: {
     navbar: new NavbarView({el : $('#navbar')}),
     navLinkView: new NavLinkView()
@@ -38,8 +42,13 @@ _.extend(App.prototype, Backbone.Events, {
       data: $.param({dictionary_id: dictionary_id}),
       reset: true
     });
+    this.models.dictionary.fetch({async: false, reset: true});
 
     this.views.navbar.add(this.views.navLinkView);
+    this.views.navLinkView.add(new NavLinkItemView({
+      href: '/entries/' + this.models.dictionary.get('name'),
+      label: 'Dictionary ' +this.models.dictionary.get('display')
+    }));
     this.views.navLinkView.add(new NavLinkItemView({
       href: '#',
       label: '日本語',
