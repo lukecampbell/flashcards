@@ -21,5 +21,8 @@
     "font-awesome": "~4.3.0",
     "backbone.stickit": "~0.8.0",
     "bootstrap-editable": "*"
+  },
+  "resolutions": {
+    "jquery": "~2.1.3"
   }
 }
