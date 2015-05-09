@@ -15,13 +15,18 @@ var FlashcardView = Backbone.View.extend({
     this.render();
   },
   initialize: function() {
+    _.bindAll(this, "onKey", "onSwipeLeft");
     this.englishFront = false;
     this.listenTo(app, 'app:keydown', this.onKey);
+    this.listenTo(app, 'app:swipeleft', this.onSwipeLeft);
     this.listenTo(this.collection, 'reset', this.onReady)
   },
   onClick: function(e) {
     e.stopPropagation();
     this.flip();
+    if(app.mobile) {
+      this.show();
+    }
   },
   onKey: function(e) {
     if(e.keyCode == 32 || e.keyCode == 40) {
@@ -30,6 +35,10 @@ var FlashcardView = Backbone.View.extend({
     } else if (e.keyCode == 13 || e.keyCode == 39) {
       this.onReady();
     }
+  },
+  onSwipeLeft: function(e) {
+    e.preventDefault();
+    this.onReady();
   },
   onReady: function() {
     this.choose();
