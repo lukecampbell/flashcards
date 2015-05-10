@@ -49,7 +49,13 @@ module.exports = function(grunt) {
           'static/css/index.css': [
             'components/bootstrap/dist/css/bootstrap.css',
             'components/font-awesome/css/font-awesome.css',
-            'app/css/*.css'
+            'app/css/base.css'
+          ],
+          'static/css/entry_view.css': [
+            'components/bootstrap/dist/css/bootstrap.css',
+            'components/font-awesome/css/font-awesome.css',
+            'app/css/base.css',
+            'app/css/entry_view.css',
           ]
         }
       }

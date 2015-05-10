@@ -2,7 +2,7 @@
 {% block title %}{{title}}{% endblock %}
 
 {% block head %}
-<link href="/css/index.css" rel="stylesheet" type="text/css">
+<link href="/css/entry_view.css" rel="stylesheet" type="text/css">
 <script src="/partials/index.js" type="text/javascript"></script>
 <script src="/js/index.js" type="text/javascript"></script>
 {% endblock %}
@@ -25,6 +25,7 @@
                   <span class="fa fa-list"> Flashcards</span>
                 </strong>
               </a>
+              <input class="filter-box" type="text" id="filter" placeholder="Filter" />
               <div class="pull-right">
                 <a id="new-entry" href="#">
                   <span class="fa fa-plus"> New Entry</span>
@@ -95,6 +96,9 @@ $(document).ready(function() {
     app.start();
     $('#page-content-wrapper').click(function() {
       $('#wrapper').removeClass('toggled');
+    });
+    $('#filter').on('keyup', function(e) {
+      app.trigger('app:filter', e);
     });
 });
 </script>
